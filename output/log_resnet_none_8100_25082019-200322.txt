@@ -1,0 +1,26 @@
+2019-08-25 20:03:22,189 - INFO - find_best_layer - np.random.random(): 0.3745401188473625
+2019-08-25 20:03:22,189 - INFO - find_best_layer - ======
+2019-08-25 20:03:22,190 - INFO - find_best_layer - starting run resnet_none_8100_25082019-200322
+2019-08-25 20:03:22,190 - INFO - find_best_layer - parameter: normalize: none
+2019-08-25 20:03:22,190 - INFO - find_best_layer - parameter: nr_images: 8100
+2019-08-25 20:03:22,190 - INFO - find_best_layer - parameter: model: resnet
+2019-08-25 20:03:22,190 - INFO - find_best_layer - project_path: /home/s_tetelepta/setdetection/src/..
+2019-08-25 20:03:22,190 - INFO - find_best_layer - output_path: /home/s_tetelepta/setdetection/src/../output
+2019-08-25 20:03:22,190 - INFO - find_best_layer - is_file: True
+2019-08-25 20:03:22,190 - INFO - find_best_layer - is_colab: False
+2019-08-25 20:04:05,110 - INFO - find_best_layer - ===
+2019-08-25 20:04:05,110 - INFO - find_best_layer - process layer: 0 - 115
+2019-08-25 20:04:05,110 - INFO - find_best_layer - Memory usage: 2980600, diff: 0
+2019-08-25 20:04:05,113 - INFO - find_best_layer - 0 previous results for model resnet, layer 115, nr_images 8100, and normalize settings: none
+2019-08-25 20:05:34,673 - INFO - find_best_layer - no normalization
+2019-08-25 20:06:04,701 - INFO - find_best_layer - score for layer 115 - layer_name activation_31, train_score: 1.0000, val_score: 0.8765
+2019-08-25 20:06:04,706 - INFO - find_best_layer - ===
+2019-08-25 20:06:04,706 - INFO - find_best_layer - process layer: 1 - 59
+2019-08-25 20:06:04,706 - INFO - find_best_layer - Memory usage: 3596488, diff: 615888
+2019-08-25 20:06:04,709 - INFO - find_best_layer - 0 previous results for model resnet, layer 59, nr_images 8100, and normalize settings: none
+2019-08-25 20:07:22,411 - INFO - find_best_layer - no normalization
+2019-08-25 20:11:41,331 - INFO - find_best_layer - score for layer 59 - layer_name add_4, train_score: 1.0000, val_score: 0.9383
+2019-08-25 20:11:41,336 - INFO - find_best_layer - ===
+2019-08-25 20:11:41,336 - INFO - find_best_layer - process layer: 2 - 142
+2019-08-25 20:11:41,336 - INFO - find_best_layer - Memory usage: 14293388, diff: 10696900
+2019-08-25 20:11:41,340 - INFO - find_best_layer - 0 previous results for model resnet, layer 142, nr_images 8100, and normalize settings: none

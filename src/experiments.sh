@@ -17,6 +17,6 @@
 #python ./src/find_best_layer.py --normalize="standard" --model="resnet" --nr_images=2430;
 
 
-python ./src/find_best_layer.py --normalize="none" --model="resnet" --nr_images=8100;
-python ./src/find_best_layer.py --normalize="none" --model="mobilenet" --nr_images=8100;
-python ./src/find_best_layer.py --normalize="none" --model="mobilenet_v2" --nr_images=8100;
+python ./find_best_layer.py --normalize="none" --model="resnet" --nr_images=8100;
+python ./find_best_layer.py --normalize="none" --model="mobilenet" --nr_images=8100;
+python ./find_best_layer.py --normalize="none" --model="mobilenet_v2" --nr_images=8100;

@@ -1,0 +1,3 @@
+run_id;layer_id;layer_name;model;nr_images;normalize;train_score;val_score
+resnet_none_8100_25082019-200322;115;activation_31;resnet;8100;none;1.0;0.8765432098765432
+resnet_none_8100_25082019-200322;59;add_4;resnet;8100;none;1.0;0.9382716049382716
