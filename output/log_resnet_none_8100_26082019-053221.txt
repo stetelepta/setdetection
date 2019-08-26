@@ -859,3 +859,40 @@
 2019-08-26 06:35:18,878 - INFO - find_best_layer - Memory usage: 26438276, diff: 0
 2019-08-26 06:35:18,882 - INFO - find_best_layer - 0 previous results for model resnet, layer 21, nr_images 8100, and normalize settings: none
 2019-08-26 06:35:51,432 - INFO - find_best_layer - no normalization
+2019-08-26 06:38:00,361 - INFO - find_best_layer - score for layer 21 - layer_name activation_4, train_score: 1.0000, val_score: 0.6543
+2019-08-26 06:38:00,367 - INFO - find_best_layer - ===
+2019-08-26 06:38:00,367 - INFO - find_best_layer - process layer: 168 - 170
+2019-08-26 06:38:00,367 - INFO - find_best_layer - Memory usage: 26438276, diff: 0
+2019-08-26 06:38:00,371 - INFO - find_best_layer - 0 previous results for model resnet, layer 170, nr_images 8100, and normalize settings: none
+2019-08-26 06:39:55,633 - INFO - find_best_layer - no normalization
+2019-08-26 06:40:09,534 - INFO - find_best_layer - score for layer 170 - layer_name activation_47, train_score: 1.0000, val_score: 0.7654
+2019-08-26 06:40:09,540 - INFO - find_best_layer - ===
+2019-08-26 06:40:09,540 - INFO - find_best_layer - process layer: 169 - 27
+2019-08-26 06:40:09,540 - INFO - find_best_layer - Memory usage: 26438276, diff: 0
+2019-08-26 06:40:09,544 - INFO - find_best_layer - 0 previous results for model resnet, layer 27, nr_images 8100, and normalize settings: none
+2019-08-26 06:40:52,322 - INFO - find_best_layer - no normalization
+2019-08-26 06:49:49,854 - INFO - find_best_layer - score for layer 27 - layer_name add_1, train_score: 1.0000, val_score: 0.8025
+2019-08-26 06:49:49,860 - INFO - find_best_layer - ===
+2019-08-26 06:49:49,860 - INFO - find_best_layer - process layer: 170 - 8
+2019-08-26 06:49:49,860 - INFO - find_best_layer - Memory usage: 26438276, diff: 0
+2019-08-26 06:49:49,864 - INFO - find_best_layer - 0 previous results for model resnet, layer 8, nr_images 8100, and normalize settings: none
+2019-08-26 06:50:10,635 - INFO - find_best_layer - no normalization
+2019-08-26 06:52:20,463 - INFO - find_best_layer - score for layer 8 - layer_name bn2a_branch2a, train_score: 1.0000, val_score: 0.5185
+2019-08-26 06:52:20,469 - INFO - find_best_layer - ===
+2019-08-26 06:52:20,470 - INFO - find_best_layer - process layer: 171 - 51
+2019-08-26 06:52:20,470 - INFO - find_best_layer - Memory usage: 26438276, diff: 0
+2019-08-26 06:52:20,474 - INFO - find_best_layer - 0 previous results for model resnet, layer 51, nr_images 8100, and normalize settings: none
+2019-08-26 06:53:24,935 - INFO - find_best_layer - no normalization
+2019-08-26 06:54:25,327 - INFO - find_best_layer - score for layer 51 - layer_name res3b_branch2a, train_score: 1.0000, val_score: 0.7654
+2019-08-26 06:54:25,333 - INFO - find_best_layer - ===
+2019-08-26 06:54:25,333 - INFO - find_best_layer - process layer: 172 - 109
+2019-08-26 06:54:25,334 - INFO - find_best_layer - Memory usage: 26438276, diff: 0
+2019-08-26 06:54:25,337 - INFO - find_best_layer - 0 previous results for model resnet, layer 109, nr_images 8100, and normalize settings: none
+2019-08-26 06:56:04,950 - INFO - find_best_layer - no normalization
+2019-08-26 06:58:11,823 - INFO - find_best_layer - score for layer 109 - layer_name res4c_branch2c, train_score: 1.0000, val_score: 0.9259
+2019-08-26 06:58:11,829 - INFO - find_best_layer - ===
+2019-08-26 06:58:11,829 - INFO - find_best_layer - process layer: 173 - 38
+2019-08-26 06:58:11,829 - INFO - find_best_layer - Memory usage: 26438276, diff: 0
+2019-08-26 06:58:11,833 - INFO - find_best_layer - 0 previous results for model resnet, layer 38, nr_images 8100, and normalize settings: none
+2019-08-26 06:59:06,842 - INFO - find_best_layer - no normalization
+2019-08-26 07:08:31,266 - INFO - find_best_layer - score for layer 38 - layer_name activation_9, train_score: 1.0000, val_score: 0.9259
