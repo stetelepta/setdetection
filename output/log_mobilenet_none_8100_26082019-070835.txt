@@ -34,3 +34,496 @@ Call initializer instance with the dtype argument instead of passing it to the c
 2019-08-26 07:17:44,740 - INFO - find_best_layer - Memory usage: 13662708, diff: 0
 2019-08-26 07:17:44,743 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 15, nr_images 8100, and normalize settings: none
 2019-08-26 07:18:08,586 - INFO - find_best_layer - no normalization
+2019-08-26 07:22:45,474 - INFO - find_best_layer - score for layer 15 - layer_name conv_pw_2, train_score: 0.9994, val_score: 0.6420
+2019-08-26 07:22:45,480 - INFO - find_best_layer - ===
+2019-08-26 07:22:45,480 - INFO - find_best_layer - process layer: 4 - 43
+2019-08-26 07:22:45,480 - INFO - find_best_layer - Memory usage: 13948180, diff: 285472
+2019-08-26 07:22:45,484 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 43, nr_images 8100, and normalize settings: none
+2019-08-26 07:23:23,081 - INFO - find_best_layer - no normalization
+2019-08-26 07:24:26,849 - INFO - find_best_layer - score for layer 43 - layer_name conv_pw_6_relu, train_score: 1.0000, val_score: 0.8272
+2019-08-26 07:24:26,855 - INFO - find_best_layer - ===
+2019-08-26 07:24:26,855 - INFO - find_best_layer - process layer: 5 - 63
+2019-08-26 07:24:26,855 - INFO - find_best_layer - Memory usage: 13948180, diff: 0
+2019-08-26 07:24:26,858 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 63, nr_images 8100, and normalize settings: none
+2019-08-26 07:25:11,719 - INFO - find_best_layer - no normalization
+2019-08-26 07:26:14,711 - INFO - find_best_layer - score for layer 63 - layer_name conv_dw_10_bn, train_score: 1.0000, val_score: 0.6296
+2019-08-26 07:26:14,717 - INFO - find_best_layer - ===
+2019-08-26 07:26:14,717 - INFO - find_best_layer - process layer: 6 - 34
+2019-08-26 07:26:14,717 - INFO - find_best_layer - Memory usage: 13948180, diff: 0
+2019-08-26 07:26:14,721 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 34, nr_images 8100, and normalize settings: none
+2019-08-26 07:26:47,142 - INFO - find_best_layer - no normalization
+2019-08-26 07:28:55,270 - INFO - find_best_layer - score for layer 34 - layer_name conv_pw_5, train_score: 1.0000, val_score: 0.8889
+2019-08-26 07:28:55,276 - INFO - find_best_layer - ===
+2019-08-26 07:28:55,277 - INFO - find_best_layer - process layer: 7 - 14
+2019-08-26 07:28:55,277 - INFO - find_best_layer - Memory usage: 13948180, diff: 0
+2019-08-26 07:28:55,280 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 14, nr_images 8100, and normalize settings: none
+2019-08-26 07:29:14,976 - INFO - find_best_layer - no normalization
+2019-08-26 07:31:25,378 - INFO - find_best_layer - score for layer 14 - layer_name conv_dw_2_relu, train_score: 1.0000, val_score: 0.5556
+2019-08-26 07:31:25,386 - INFO - find_best_layer - ===
+2019-08-26 07:31:25,386 - INFO - find_best_layer - process layer: 8 - 36
+2019-08-26 07:31:25,386 - INFO - find_best_layer - Memory usage: 13948180, diff: 0
+2019-08-26 07:31:25,390 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 36, nr_images 8100, and normalize settings: none
+2019-08-26 07:32:00,699 - INFO - find_best_layer - no normalization
+2019-08-26 07:34:19,127 - INFO - find_best_layer - score for layer 36 - layer_name conv_pw_5_relu, train_score: 1.0000, val_score: 0.9136
+2019-08-26 07:34:19,134 - INFO - find_best_layer - ===
+2019-08-26 07:34:19,134 - INFO - find_best_layer - process layer: 9 - 47
+2019-08-26 07:34:19,135 - INFO - find_best_layer - Memory usage: 13948180, diff: 0
+2019-08-26 07:34:19,138 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 47, nr_images 8100, and normalize settings: none
+2019-08-26 07:34:58,222 - INFO - find_best_layer - no normalization
+2019-08-26 07:36:05,017 - INFO - find_best_layer - score for layer 47 - layer_name conv_pw_7, train_score: 1.0000, val_score: 0.7284
+2019-08-26 07:36:05,024 - INFO - find_best_layer - ===
+2019-08-26 07:36:05,024 - INFO - find_best_layer - process layer: 10 - 73
+2019-08-26 07:36:05,024 - INFO - find_best_layer - Memory usage: 13948180, diff: 0
+2019-08-26 07:36:05,028 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 73, nr_images 8100, and normalize settings: none
+2019-08-26 07:36:51,908 - INFO - find_best_layer - no normalization
+2019-08-26 07:37:54,231 - INFO - find_best_layer - score for layer 73 - layer_name conv_pw_11_relu, train_score: 1.0000, val_score: 0.5309
+2019-08-26 07:37:54,238 - INFO - find_best_layer - ===
+2019-08-26 07:37:54,238 - INFO - find_best_layer - process layer: 11 - 86
+2019-08-26 07:37:54,238 - INFO - find_best_layer - Memory usage: 13948180, diff: 0
+2019-08-26 07:37:54,241 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 86, nr_images 8100, and normalize settings: none
+2019-08-26 07:38:39,969 - INFO - find_best_layer - no normalization
+2019-08-26 07:39:12,497 - INFO - find_best_layer - score for layer 86 - layer_name conv_pw_13_relu, train_score: 1.0000, val_score: 0.6914
+2019-08-26 07:39:12,504 - INFO - find_best_layer - ===
+2019-08-26 07:39:12,504 - INFO - find_best_layer - process layer: 12 - 12
+2019-08-26 07:39:12,504 - INFO - find_best_layer - Memory usage: 13948180, diff: 0
+2019-08-26 07:39:12,508 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 12, nr_images 8100, and normalize settings: none
+2019-08-26 07:39:32,789 - INFO - find_best_layer - no normalization
+2019-08-26 07:41:50,583 - INFO - find_best_layer - score for layer 12 - layer_name conv_dw_2, train_score: 1.0000, val_score: 0.7284
+2019-08-26 07:41:50,590 - INFO - find_best_layer - ===
+2019-08-26 07:41:50,590 - INFO - find_best_layer - process layer: 13 - 66
+2019-08-26 07:41:50,590 - INFO - find_best_layer - Memory usage: 13948180, diff: 0
+2019-08-26 07:41:50,594 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 66, nr_images 8100, and normalize settings: none
+2019-08-26 07:42:36,424 - INFO - find_best_layer - no normalization
+2019-08-26 07:43:39,705 - INFO - find_best_layer - score for layer 66 - layer_name conv_pw_10_bn, train_score: 1.0000, val_score: 0.6296
+2019-08-26 07:43:39,712 - INFO - find_best_layer - ===
+2019-08-26 07:43:39,712 - INFO - find_best_layer - process layer: 14 - 57
+2019-08-26 07:43:39,712 - INFO - find_best_layer - Memory usage: 13948180, diff: 0
+2019-08-26 07:43:39,716 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 57, nr_images 8100, and normalize settings: none
+2019-08-26 07:44:20,827 - INFO - find_best_layer - no normalization
+2019-08-26 07:45:24,205 - INFO - find_best_layer - score for layer 57 - layer_name conv_dw_9_bn, train_score: 1.0000, val_score: 0.7531
+2019-08-26 07:45:24,212 - INFO - find_best_layer - ===
+2019-08-26 07:45:24,212 - INFO - find_best_layer - process layer: 15 - 50
+2019-08-26 07:45:24,212 - INFO - find_best_layer - Memory usage: 13948180, diff: 0
+2019-08-26 07:45:24,216 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 50, nr_images 8100, and normalize settings: none
+2019-08-26 07:46:04,900 - INFO - find_best_layer - no normalization
+2019-08-26 07:47:05,966 - INFO - find_best_layer - score for layer 50 - layer_name conv_dw_8, train_score: 1.0000, val_score: 0.6914
+2019-08-26 07:47:05,972 - INFO - find_best_layer - ===
+2019-08-26 07:47:05,972 - INFO - find_best_layer - process layer: 16 - 20
+2019-08-26 07:47:05,972 - INFO - find_best_layer - Memory usage: 13948180, diff: 0
+2019-08-26 07:47:05,976 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 20, nr_images 8100, and normalize settings: none
+2019-08-26 07:47:30,232 - INFO - find_best_layer - no normalization
+2019-08-26 07:52:14,114 - INFO - find_best_layer - score for layer 20 - layer_name conv_dw_3_relu, train_score: 1.0000, val_score: 0.6914
+2019-08-26 07:52:14,121 - INFO - find_best_layer - ===
+2019-08-26 07:52:14,121 - INFO - find_best_layer - process layer: 17 - 72
+2019-08-26 07:52:14,121 - INFO - find_best_layer - Memory usage: 14005404, diff: 57224
+2019-08-26 07:52:14,125 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 72, nr_images 8100, and normalize settings: none
+2019-08-26 07:53:00,899 - INFO - find_best_layer - no normalization
+2019-08-26 07:54:01,506 - INFO - find_best_layer - score for layer 72 - layer_name conv_pw_11_bn, train_score: 1.0000, val_score: 0.6049
+2019-08-26 07:54:01,512 - INFO - find_best_layer - ===
+2019-08-26 07:54:01,513 - INFO - find_best_layer - process layer: 18 - 39
+2019-08-26 07:54:01,513 - INFO - find_best_layer - Memory usage: 14005404, diff: 0
+2019-08-26 07:54:01,516 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 39, nr_images 8100, and normalize settings: none
+2019-08-26 07:54:33,708 - INFO - find_best_layer - no normalization
+2019-08-26 07:55:06,627 - INFO - find_best_layer - score for layer 39 - layer_name conv_dw_6_bn, train_score: 1.0000, val_score: 0.8642
+2019-08-26 07:55:06,633 - INFO - find_best_layer - ===
+2019-08-26 07:55:06,633 - INFO - find_best_layer - process layer: 19 - 13
+2019-08-26 07:55:06,633 - INFO - find_best_layer - Memory usage: 14005404, diff: 0
+2019-08-26 07:55:06,636 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 13, nr_images 8100, and normalize settings: none
+2019-08-26 07:55:27,429 - INFO - find_best_layer - no normalization
+2019-08-26 07:57:38,199 - INFO - find_best_layer - score for layer 13 - layer_name conv_dw_2_bn, train_score: 1.0000, val_score: 0.6173
+2019-08-26 07:57:38,205 - INFO - find_best_layer - ===
+2019-08-26 07:57:38,205 - INFO - find_best_layer - process layer: 20 - 45
+2019-08-26 07:57:38,205 - INFO - find_best_layer - Memory usage: 14005404, diff: 0
+2019-08-26 07:57:38,209 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 45, nr_images 8100, and normalize settings: none
+2019-08-26 07:58:15,996 - INFO - find_best_layer - no normalization
+2019-08-26 07:59:19,424 - INFO - find_best_layer - score for layer 45 - layer_name conv_dw_7_bn, train_score: 1.0000, val_score: 0.7654
+2019-08-26 07:59:19,431 - INFO - find_best_layer - ===
+2019-08-26 07:59:19,431 - INFO - find_best_layer - process layer: 21 - 75
+2019-08-26 07:59:19,431 - INFO - find_best_layer - Memory usage: 14005404, diff: 0
+2019-08-26 07:59:19,434 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 75, nr_images 8100, and normalize settings: none
+2019-08-26 08:00:02,973 - INFO - find_best_layer - no normalization
+2019-08-26 08:00:17,298 - INFO - find_best_layer - score for layer 75 - layer_name conv_dw_12, train_score: 1.0000, val_score: 0.5185
+2019-08-26 08:00:17,305 - INFO - find_best_layer - ===
+2019-08-26 08:00:17,305 - INFO - find_best_layer - process layer: 22 - 10
+2019-08-26 08:00:17,305 - INFO - find_best_layer - Memory usage: 14005404, diff: 0
+2019-08-26 08:00:17,308 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 10, nr_images 8100, and normalize settings: none
+2019-08-26 08:00:28,881 - INFO - find_best_layer - no normalization
+2019-08-26 08:09:54,519 - INFO - find_best_layer - score for layer 10 - layer_name conv_pw_1_relu, train_score: 1.0000, val_score: 0.6420
+2019-08-26 08:09:54,527 - INFO - find_best_layer - ===
+2019-08-26 08:09:54,527 - INFO - find_best_layer - process layer: 23 - 7
+2019-08-26 08:09:54,527 - INFO - find_best_layer - Memory usage: 26052740, diff: 12047336
+2019-08-26 08:09:54,532 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 7, nr_images 8100, and normalize settings: none
+2019-08-26 08:10:02,213 - INFO - find_best_layer - no normalization
+2019-08-26 08:15:21,839 - INFO - find_best_layer - score for layer 7 - layer_name conv_dw_1_relu, train_score: 1.0000, val_score: 0.4444
+2019-08-26 08:15:21,846 - INFO - find_best_layer - ===
+2019-08-26 08:15:21,846 - INFO - find_best_layer - process layer: 24 - 16
+2019-08-26 08:15:21,847 - INFO - find_best_layer - Memory usage: 26052740, diff: 0
+2019-08-26 08:15:21,850 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 16, nr_images 8100, and normalize settings: none
+2019-08-26 08:15:45,167 - INFO - find_best_layer - no normalization
+2019-08-26 08:20:36,813 - INFO - find_best_layer - score for layer 16 - layer_name conv_pw_2_bn, train_score: 1.0000, val_score: 0.6173
+2019-08-26 08:20:36,820 - INFO - find_best_layer - ===
+2019-08-26 08:20:36,820 - INFO - find_best_layer - process layer: 25 - 59
+2019-08-26 08:20:36,820 - INFO - find_best_layer - Memory usage: 26052740, diff: 0
+2019-08-26 08:20:36,825 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 59, nr_images 8100, and normalize settings: none
+2019-08-26 08:21:20,993 - INFO - find_best_layer - no normalization
+2019-08-26 08:22:26,707 - INFO - find_best_layer - score for layer 59 - layer_name conv_pw_9, train_score: 1.0000, val_score: 0.6543
+2019-08-26 08:22:26,713 - INFO - find_best_layer - ===
+2019-08-26 08:22:26,714 - INFO - find_best_layer - process layer: 26 - 11
+2019-08-26 08:22:26,714 - INFO - find_best_layer - Memory usage: 26052740, diff: 0
+2019-08-26 08:22:26,717 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 11, nr_images 8100, and normalize settings: none
+2019-08-26 08:22:48,119 - INFO - find_best_layer - no normalization
+2019-08-26 08:32:37,332 - INFO - find_best_layer - score for layer 11 - layer_name conv_pad_2, train_score: 1.0000, val_score: 0.6420
+2019-08-26 08:32:37,341 - INFO - find_best_layer - ===
+2019-08-26 08:32:37,341 - INFO - find_best_layer - process layer: 27 - 9
+2019-08-26 08:32:37,341 - INFO - find_best_layer - Memory usage: 26994592, diff: 941852
+2019-08-26 08:32:37,345 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 9, nr_images 8100, and normalize settings: none
+2019-08-26 08:32:48,768 - INFO - find_best_layer - no normalization
+2019-08-26 08:42:20,188 - INFO - find_best_layer - score for layer 9 - layer_name conv_pw_1_bn, train_score: 1.0000, val_score: 0.4321
+2019-08-26 08:42:20,194 - INFO - find_best_layer - ===
+2019-08-26 08:42:20,194 - INFO - find_best_layer - process layer: 28 - 1
+2019-08-26 08:42:20,194 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 08:42:20,198 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 1, nr_images 8100, and normalize settings: none
+2019-08-26 08:42:24,688 - INFO - find_best_layer - no normalization
+2019-08-26 08:44:03,990 - INFO - find_best_layer - score for layer 1 - layer_name conv1_pad, train_score: 0.9960, val_score: 0.4568
+2019-08-26 08:44:03,996 - INFO - find_best_layer - ===
+2019-08-26 08:44:03,997 - INFO - find_best_layer - process layer: 29 - 83
+2019-08-26 08:44:03,997 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 08:44:04,000 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 83, nr_images 8100, and normalize settings: none
+2019-08-26 08:44:49,218 - INFO - find_best_layer - no normalization
+2019-08-26 08:45:18,174 - INFO - find_best_layer - score for layer 83 - layer_name conv_dw_13_relu, train_score: 1.0000, val_score: 0.6790
+2019-08-26 08:45:18,181 - INFO - find_best_layer - ===
+2019-08-26 08:45:18,181 - INFO - find_best_layer - process layer: 30 - 68
+2019-08-26 08:45:18,181 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 08:45:18,184 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 68, nr_images 8100, and normalize settings: none
+2019-08-26 08:46:04,676 - INFO - find_best_layer - no normalization
+2019-08-26 08:47:11,154 - INFO - find_best_layer - score for layer 68 - layer_name conv_dw_11, train_score: 1.0000, val_score: 0.6790
+2019-08-26 08:47:11,162 - INFO - find_best_layer - ===
+2019-08-26 08:47:11,162 - INFO - find_best_layer - process layer: 31 - 26
+2019-08-26 08:47:11,162 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 08:47:11,167 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 26, nr_images 8100, and normalize settings: none
+2019-08-26 08:47:43,075 - INFO - find_best_layer - no normalization
+2019-08-26 08:48:47,395 - INFO - find_best_layer - score for layer 26 - layer_name conv_dw_4_bn, train_score: 1.0000, val_score: 0.8889
+2019-08-26 08:48:47,402 - INFO - find_best_layer - ===
+2019-08-26 08:48:47,402 - INFO - find_best_layer - process layer: 32 - 52
+2019-08-26 08:48:47,402 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 08:48:47,405 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 52, nr_images 8100, and normalize settings: none
+2019-08-26 08:49:30,034 - INFO - find_best_layer - no normalization
+2019-08-26 08:50:31,919 - INFO - find_best_layer - score for layer 52 - layer_name conv_dw_8_relu, train_score: 1.0000, val_score: 0.7160
+2019-08-26 08:50:31,925 - INFO - find_best_layer - ===
+2019-08-26 08:50:31,925 - INFO - find_best_layer - process layer: 33 - 81
+2019-08-26 08:50:31,925 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 08:50:31,928 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 81, nr_images 8100, and normalize settings: none
+2019-08-26 08:51:16,634 - INFO - find_best_layer - no normalization
+2019-08-26 08:51:46,589 - INFO - find_best_layer - score for layer 81 - layer_name conv_dw_13, train_score: 1.0000, val_score: 0.6914
+2019-08-26 08:51:46,595 - INFO - find_best_layer - ===
+2019-08-26 08:51:46,595 - INFO - find_best_layer - process layer: 34 - 2
+2019-08-26 08:51:46,595 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 08:51:46,599 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 2, nr_images 8100, and normalize settings: none
+2019-08-26 08:51:51,917 - INFO - find_best_layer - no normalization
+2019-08-26 08:56:42,719 - INFO - find_best_layer - score for layer 2 - layer_name conv1, train_score: 1.0000, val_score: 0.5679
+2019-08-26 08:56:42,725 - INFO - find_best_layer - ===
+2019-08-26 08:56:42,725 - INFO - find_best_layer - process layer: 35 - 74
+2019-08-26 08:56:42,725 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 08:56:42,729 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 74, nr_images 8100, and normalize settings: none
+2019-08-26 08:57:37,522 - INFO - find_best_layer - no normalization
+2019-08-26 08:59:01,706 - INFO - find_best_layer - score for layer 74 - layer_name conv_pad_12, train_score: 1.0000, val_score: 0.5309
+2019-08-26 08:59:01,713 - INFO - find_best_layer - ===
+2019-08-26 08:59:01,713 - INFO - find_best_layer - process layer: 36 - 22
+2019-08-26 08:59:01,713 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 08:59:01,717 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 22, nr_images 8100, and normalize settings: none
+2019-08-26 08:59:32,883 - INFO - find_best_layer - no normalization
+2019-08-26 09:04:07,506 - INFO - find_best_layer - score for layer 22 - layer_name conv_pw_3_bn, train_score: 1.0000, val_score: 0.7407
+2019-08-26 09:04:07,512 - INFO - find_best_layer - ===
+2019-08-26 09:04:07,512 - INFO - find_best_layer - process layer: 37 - 56
+2019-08-26 09:04:07,513 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 09:04:07,516 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 56, nr_images 8100, and normalize settings: none
+2019-08-26 09:04:53,402 - INFO - find_best_layer - no normalization
+2019-08-26 09:05:59,023 - INFO - find_best_layer - score for layer 56 - layer_name conv_dw_9, train_score: 1.0000, val_score: 0.7284
+2019-08-26 09:05:59,029 - INFO - find_best_layer - ===
+2019-08-26 09:05:59,030 - INFO - find_best_layer - process layer: 38 - 58
+2019-08-26 09:05:59,030 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 09:05:59,033 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 58, nr_images 8100, and normalize settings: none
+2019-08-26 09:06:45,230 - INFO - find_best_layer - no normalization
+2019-08-26 09:07:51,444 - INFO - find_best_layer - score for layer 58 - layer_name conv_dw_9_relu, train_score: 1.0000, val_score: 0.7037
+2019-08-26 09:07:51,451 - INFO - find_best_layer - ===
+2019-08-26 09:07:51,451 - INFO - find_best_layer - process layer: 39 - 40
+2019-08-26 09:07:51,451 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 09:07:51,455 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 40, nr_images 8100, and normalize settings: none
+2019-08-26 09:08:25,170 - INFO - find_best_layer - no normalization
+2019-08-26 09:08:56,465 - INFO - find_best_layer - score for layer 40 - layer_name conv_dw_6_relu, train_score: 1.0000, val_score: 0.8765
+2019-08-26 09:08:56,472 - INFO - find_best_layer - ===
+2019-08-26 09:08:56,472 - INFO - find_best_layer - process layer: 40 - 55
+2019-08-26 09:08:56,472 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 09:08:56,476 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 55, nr_images 8100, and normalize settings: none
+2019-08-26 09:09:39,253 - INFO - find_best_layer - no normalization
+2019-08-26 09:10:40,622 - INFO - find_best_layer - score for layer 55 - layer_name conv_pw_8_relu, train_score: 1.0000, val_score: 0.6667
+2019-08-26 09:10:40,628 - INFO - find_best_layer - ===
+2019-08-26 09:10:40,628 - INFO - find_best_layer - process layer: 41 - 84
+2019-08-26 09:10:40,628 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 09:10:40,632 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 84, nr_images 8100, and normalize settings: none
+2019-08-26 09:11:28,243 - INFO - find_best_layer - no normalization
+2019-08-26 09:11:59,588 - INFO - find_best_layer - score for layer 84 - layer_name conv_pw_13, train_score: 1.0000, val_score: 0.6543
+2019-08-26 09:11:59,594 - INFO - find_best_layer - ===
+2019-08-26 09:11:59,594 - INFO - find_best_layer - process layer: 42 - 42
+2019-08-26 09:11:59,594 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 09:11:59,598 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 42, nr_images 8100, and normalize settings: none
+2019-08-26 09:12:38,668 - INFO - find_best_layer - no normalization
+2019-08-26 09:13:40,503 - INFO - find_best_layer - score for layer 42 - layer_name conv_pw_6_bn, train_score: 1.0000, val_score: 0.8519
+2019-08-26 09:13:40,509 - INFO - find_best_layer - ===
+2019-08-26 09:13:40,510 - INFO - find_best_layer - process layer: 43 - 25
+2019-08-26 09:13:40,510 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 09:13:40,513 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 25, nr_images 8100, and normalize settings: none
+2019-08-26 09:14:11,132 - INFO - find_best_layer - no normalization
+2019-08-26 09:15:18,805 - INFO - find_best_layer - score for layer 25 - layer_name conv_dw_4, train_score: 1.0000, val_score: 0.8889
+2019-08-26 09:15:18,812 - INFO - find_best_layer - ===
+2019-08-26 09:15:18,812 - INFO - find_best_layer - process layer: 44 - 18
+2019-08-26 09:15:18,812 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 09:15:18,816 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 18, nr_images 8100, and normalize settings: none
+2019-08-26 09:15:45,381 - INFO - find_best_layer - no normalization
+2019-08-26 09:20:25,507 - INFO - find_best_layer - score for layer 18 - layer_name conv_dw_3, train_score: 1.0000, val_score: 0.5926
+2019-08-26 09:20:25,514 - INFO - find_best_layer - ===
+2019-08-26 09:20:25,514 - INFO - find_best_layer - process layer: 45 - 3
+2019-08-26 09:20:25,514 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 09:20:25,517 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 3, nr_images 8100, and normalize settings: none
+2019-08-26 09:20:31,716 - INFO - find_best_layer - no normalization
+2019-08-26 09:25:10,009 - INFO - find_best_layer - score for layer 3 - layer_name conv1_bn, train_score: 0.9873, val_score: 0.3951
+2019-08-26 09:25:10,016 - INFO - find_best_layer - ===
+2019-08-26 09:25:10,016 - INFO - find_best_layer - process layer: 46 - 85
+2019-08-26 09:25:10,016 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 09:25:10,021 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 85, nr_images 8100, and normalize settings: none
+2019-08-26 09:25:57,780 - INFO - find_best_layer - no normalization
+2019-08-26 09:26:28,827 - INFO - find_best_layer - score for layer 85 - layer_name conv_pw_13_bn, train_score: 1.0000, val_score: 0.6914
+2019-08-26 09:26:28,834 - INFO - find_best_layer - ===
+2019-08-26 09:26:28,834 - INFO - find_best_layer - process layer: 47 - 23
+2019-08-26 09:26:28,834 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 09:26:28,838 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 23, nr_images 8100, and normalize settings: none
+2019-08-26 09:26:59,862 - INFO - find_best_layer - no normalization
+2019-08-26 09:31:36,579 - INFO - find_best_layer - score for layer 23 - layer_name conv_pw_3_relu, train_score: 1.0000, val_score: 0.7654
+2019-08-26 09:31:36,588 - INFO - find_best_layer - ===
+2019-08-26 09:31:36,588 - INFO - find_best_layer - process layer: 48 - 32
+2019-08-26 09:31:36,588 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 09:31:36,592 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 32, nr_images 8100, and normalize settings: none
+2019-08-26 09:32:11,113 - INFO - find_best_layer - no normalization
+2019-08-26 09:34:20,343 - INFO - find_best_layer - score for layer 32 - layer_name conv_dw_5_bn, train_score: 1.0000, val_score: 0.8889
+2019-08-26 09:34:20,349 - INFO - find_best_layer - ===
+2019-08-26 09:34:20,349 - INFO - find_best_layer - process layer: 49 - 80
+2019-08-26 09:34:20,349 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 09:34:20,353 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 80, nr_images 8100, and normalize settings: none
+2019-08-26 09:35:05,949 - INFO - find_best_layer - no normalization
+2019-08-26 09:35:34,855 - INFO - find_best_layer - score for layer 80 - layer_name conv_pw_12_relu, train_score: 1.0000, val_score: 0.6667
+2019-08-26 09:35:34,861 - INFO - find_best_layer - ===
+2019-08-26 09:35:34,861 - INFO - find_best_layer - process layer: 50 - 33
+2019-08-26 09:35:34,862 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 09:35:34,865 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 33, nr_images 8100, and normalize settings: none
+2019-08-26 09:36:08,916 - INFO - find_best_layer - no normalization
+2019-08-26 09:38:20,709 - INFO - find_best_layer - score for layer 33 - layer_name conv_dw_5_relu, train_score: 1.0000, val_score: 0.9259
+2019-08-26 09:38:20,715 - INFO - find_best_layer - ===
+2019-08-26 09:38:20,715 - INFO - find_best_layer - process layer: 51 - 62
+2019-08-26 09:38:20,715 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 09:38:20,719 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 62, nr_images 8100, and normalize settings: none
+2019-08-26 09:39:06,747 - INFO - find_best_layer - no normalization
+2019-08-26 09:40:12,048 - INFO - find_best_layer - score for layer 62 - layer_name conv_dw_10, train_score: 1.0000, val_score: 0.6543
+2019-08-26 09:40:12,054 - INFO - find_best_layer - ===
+2019-08-26 09:40:12,055 - INFO - find_best_layer - process layer: 52 - 31
+2019-08-26 09:40:12,055 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 09:40:12,058 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 31, nr_images 8100, and normalize settings: none
+2019-08-26 09:40:46,805 - INFO - find_best_layer - no normalization
+2019-08-26 09:42:56,439 - INFO - find_best_layer - score for layer 31 - layer_name conv_dw_5, train_score: 1.0000, val_score: 0.9259
+2019-08-26 09:42:56,446 - INFO - find_best_layer - ===
+2019-08-26 09:42:56,446 - INFO - find_best_layer - process layer: 53 - 70
+2019-08-26 09:42:56,446 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 09:42:56,449 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 70, nr_images 8100, and normalize settings: none
+2019-08-26 09:43:44,940 - INFO - find_best_layer - no normalization
+2019-08-26 09:44:50,127 - INFO - find_best_layer - score for layer 70 - layer_name conv_dw_11_relu, train_score: 0.9999, val_score: 0.6173
+2019-08-26 09:44:50,134 - INFO - find_best_layer - ===
+2019-08-26 09:44:50,134 - INFO - find_best_layer - process layer: 54 - 65
+2019-08-26 09:44:50,134 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 09:44:50,138 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 65, nr_images 8100, and normalize settings: none
+2019-08-26 09:45:38,999 - INFO - find_best_layer - no normalization
+2019-08-26 09:46:41,681 - INFO - find_best_layer - score for layer 65 - layer_name conv_pw_10, train_score: 1.0000, val_score: 0.6049
+2019-08-26 09:46:41,687 - INFO - find_best_layer - ===
+2019-08-26 09:46:41,687 - INFO - find_best_layer - process layer: 55 - 76
+2019-08-26 09:46:41,687 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 09:46:41,691 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 76, nr_images 8100, and normalize settings: none
+2019-08-26 09:47:27,396 - INFO - find_best_layer - no normalization
+2019-08-26 09:47:41,785 - INFO - find_best_layer - score for layer 76 - layer_name conv_dw_12_bn, train_score: 0.9994, val_score: 0.4938
+2019-08-26 09:47:41,792 - INFO - find_best_layer - ===
+2019-08-26 09:47:41,792 - INFO - find_best_layer - process layer: 56 - 29
+2019-08-26 09:47:41,792 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 09:47:41,796 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 29, nr_images 8100, and normalize settings: none
+2019-08-26 09:48:15,332 - INFO - find_best_layer - no normalization
+2019-08-26 09:50:26,541 - INFO - find_best_layer - score for layer 29 - layer_name conv_pw_4_bn, train_score: 1.0000, val_score: 0.9136
+2019-08-26 09:50:26,548 - INFO - find_best_layer - ===
+2019-08-26 09:50:26,548 - INFO - find_best_layer - process layer: 57 - 24
+2019-08-26 09:50:26,548 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 09:50:26,551 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 24, nr_images 8100, and normalize settings: none
+2019-08-26 09:50:59,390 - INFO - find_best_layer - no normalization
+2019-08-26 09:55:53,410 - INFO - find_best_layer - score for layer 24 - layer_name conv_pad_4, train_score: 1.0000, val_score: 0.7654
+2019-08-26 09:55:53,416 - INFO - find_best_layer - ===
+2019-08-26 09:55:53,417 - INFO - find_best_layer - process layer: 58 - 37
+2019-08-26 09:55:53,417 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 09:55:53,421 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 37, nr_images 8100, and normalize settings: none
+2019-08-26 09:56:31,535 - INFO - find_best_layer - no normalization
+2019-08-26 09:59:07,810 - INFO - find_best_layer - score for layer 37 - layer_name conv_pad_6, train_score: 1.0000, val_score: 0.9136
+2019-08-26 09:59:07,817 - INFO - find_best_layer - ===
+2019-08-26 09:59:07,817 - INFO - find_best_layer - process layer: 59 - 41
+2019-08-26 09:59:07,817 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 09:59:07,821 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 41, nr_images 8100, and normalize settings: none
+2019-08-26 09:59:46,469 - INFO - find_best_layer - no normalization
+2019-08-26 10:00:48,821 - INFO - find_best_layer - score for layer 41 - layer_name conv_pw_6, train_score: 1.0000, val_score: 0.8395
+2019-08-26 10:00:48,827 - INFO - find_best_layer - ===
+2019-08-26 10:00:48,828 - INFO - find_best_layer - process layer: 60 - 60
+2019-08-26 10:00:48,828 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 10:00:48,831 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 60, nr_images 8100, and normalize settings: none
+2019-08-26 10:01:34,889 - INFO - find_best_layer - no normalization
+2019-08-26 10:02:38,949 - INFO - find_best_layer - score for layer 60 - layer_name conv_pw_9_bn, train_score: 1.0000, val_score: 0.6420
+2019-08-26 10:02:38,956 - INFO - find_best_layer - ===
+2019-08-26 10:02:38,956 - INFO - find_best_layer - process layer: 61 - 71
+2019-08-26 10:02:38,956 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 10:02:38,959 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 71, nr_images 8100, and normalize settings: none
+2019-08-26 10:03:30,169 - INFO - find_best_layer - no normalization
+2019-08-26 10:04:32,630 - INFO - find_best_layer - score for layer 71 - layer_name conv_pw_11, train_score: 1.0000, val_score: 0.5679
+2019-08-26 10:04:32,636 - INFO - find_best_layer - ===
+2019-08-26 10:04:32,636 - INFO - find_best_layer - process layer: 62 - 6
+2019-08-26 10:04:32,637 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 10:04:32,640 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 6, nr_images 8100, and normalize settings: none
+2019-08-26 10:04:40,123 - INFO - find_best_layer - no normalization
+2019-08-26 10:09:29,363 - INFO - find_best_layer - score for layer 6 - layer_name conv_dw_1_bn, train_score: 1.0000, val_score: 0.2346
+2019-08-26 10:09:29,370 - INFO - find_best_layer - ===
+2019-08-26 10:09:29,370 - INFO - find_best_layer - process layer: 63 - 53
+2019-08-26 10:09:29,370 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 10:09:29,373 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 53, nr_images 8100, and normalize settings: none
+2019-08-26 10:10:12,841 - INFO - find_best_layer - no normalization
+2019-08-26 10:11:14,381 - INFO - find_best_layer - score for layer 53 - layer_name conv_pw_8, train_score: 1.0000, val_score: 0.6914
+2019-08-26 10:11:14,387 - INFO - find_best_layer - ===
+2019-08-26 10:11:14,388 - INFO - find_best_layer - process layer: 64 - 46
+2019-08-26 10:11:14,388 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 10:11:14,391 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 46, nr_images 8100, and normalize settings: none
+2019-08-26 10:11:56,892 - INFO - find_best_layer - no normalization
+2019-08-26 10:13:00,690 - INFO - find_best_layer - score for layer 46 - layer_name conv_dw_7_relu, train_score: 1.0000, val_score: 0.7901
+2019-08-26 10:13:00,696 - INFO - find_best_layer - ===
+2019-08-26 10:13:00,697 - INFO - find_best_layer - process layer: 65 - 79
+2019-08-26 10:13:00,697 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 10:13:00,700 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 79, nr_images 8100, and normalize settings: none
+2019-08-26 10:13:47,286 - INFO - find_best_layer - no normalization
+2019-08-26 10:14:17,495 - INFO - find_best_layer - score for layer 79 - layer_name conv_pw_12_bn, train_score: 1.0000, val_score: 0.6049
+2019-08-26 10:14:17,501 - INFO - find_best_layer - ===
+2019-08-26 10:14:17,501 - INFO - find_best_layer - process layer: 66 - 44
+2019-08-26 10:14:17,501 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 10:14:17,505 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 44, nr_images 8100, and normalize settings: none
+2019-08-26 10:14:55,576 - INFO - find_best_layer - no normalization
+2019-08-26 10:15:57,135 - INFO - find_best_layer - score for layer 44 - layer_name conv_dw_7, train_score: 1.0000, val_score: 0.7654
+2019-08-26 10:15:57,142 - INFO - find_best_layer - ===
+2019-08-26 10:15:57,142 - INFO - find_best_layer - process layer: 67 - 17
+2019-08-26 10:15:57,142 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 10:15:57,145 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 17, nr_images 8100, and normalize settings: none
+2019-08-26 10:16:22,856 - INFO - find_best_layer - no normalization
+2019-08-26 10:20:57,246 - INFO - find_best_layer - score for layer 17 - layer_name conv_pw_2_relu, train_score: 1.0000, val_score: 0.6667
+2019-08-26 10:20:57,253 - INFO - find_best_layer - ===
+2019-08-26 10:20:57,253 - INFO - find_best_layer - process layer: 68 - 49
+2019-08-26 10:20:57,253 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 10:20:57,257 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 49, nr_images 8100, and normalize settings: none
+2019-08-26 10:21:39,945 - INFO - find_best_layer - no normalization
+2019-08-26 10:22:39,677 - INFO - find_best_layer - score for layer 49 - layer_name conv_pw_7_relu, train_score: 1.0000, val_score: 0.7037
+2019-08-26 10:22:39,684 - INFO - find_best_layer - ===
+2019-08-26 10:22:39,684 - INFO - find_best_layer - process layer: 69 - 77
+2019-08-26 10:22:39,684 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 10:22:39,688 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 77, nr_images 8100, and normalize settings: none
+2019-08-26 10:23:25,643 - INFO - find_best_layer - no normalization
+2019-08-26 10:23:40,638 - INFO - find_best_layer - score for layer 77 - layer_name conv_dw_12_relu, train_score: 0.9959, val_score: 0.5062
+2019-08-26 10:23:40,644 - INFO - find_best_layer - ===
+2019-08-26 10:23:40,644 - INFO - find_best_layer - process layer: 70 - 35
+2019-08-26 10:23:40,645 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 10:23:40,648 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 35, nr_images 8100, and normalize settings: none
+2019-08-26 10:24:16,800 - INFO - find_best_layer - no normalization
+2019-08-26 10:26:27,894 - INFO - find_best_layer - score for layer 35 - layer_name conv_pw_5_bn, train_score: 1.0000, val_score: 0.9136
+2019-08-26 10:26:27,901 - INFO - find_best_layer - ===
+2019-08-26 10:26:27,901 - INFO - find_best_layer - process layer: 71 - 4
+2019-08-26 10:26:27,901 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 10:26:27,905 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 4, nr_images 8100, and normalize settings: none
+2019-08-26 10:26:33,897 - INFO - find_best_layer - no normalization
+2019-08-26 10:31:15,283 - INFO - find_best_layer - score for layer 4 - layer_name conv1_relu, train_score: 0.9793, val_score: 0.4074
+2019-08-26 10:31:15,291 - INFO - find_best_layer - ===
+2019-08-26 10:31:15,291 - INFO - find_best_layer - process layer: 72 - 19
+2019-08-26 10:31:15,291 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 10:31:15,296 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 19, nr_images 8100, and normalize settings: none
+2019-08-26 10:31:43,276 - INFO - find_best_layer - no normalization
+2019-08-26 10:36:26,113 - INFO - find_best_layer - score for layer 19 - layer_name conv_dw_3_bn, train_score: 1.0000, val_score: 0.6543
+2019-08-26 10:36:26,120 - INFO - find_best_layer - ===
+2019-08-26 10:36:26,120 - INFO - find_best_layer - process layer: 73 - 48
+2019-08-26 10:36:26,121 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 10:36:26,124 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 48, nr_images 8100, and normalize settings: none
+2019-08-26 10:37:08,537 - INFO - find_best_layer - no normalization
+2019-08-26 10:38:13,181 - INFO - find_best_layer - score for layer 48 - layer_name conv_pw_7_bn, train_score: 1.0000, val_score: 0.7901
+2019-08-26 10:38:13,188 - INFO - find_best_layer - ===
+2019-08-26 10:38:13,188 - INFO - find_best_layer - process layer: 74 - 61
+2019-08-26 10:38:13,188 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 10:38:13,192 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 61, nr_images 8100, and normalize settings: none
+2019-08-26 10:39:02,845 - INFO - find_best_layer - no normalization
+2019-08-26 10:40:06,269 - INFO - find_best_layer - score for layer 61 - layer_name conv_pw_9_relu, train_score: 1.0000, val_score: 0.6420
+2019-08-26 10:40:06,276 - INFO - find_best_layer - ===
+2019-08-26 10:40:06,276 - INFO - find_best_layer - process layer: 75 - 69
+2019-08-26 10:40:06,276 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 10:40:06,280 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 69, nr_images 8100, and normalize settings: none
+2019-08-26 10:40:57,169 - INFO - find_best_layer - no normalization
+2019-08-26 10:42:00,351 - INFO - find_best_layer - score for layer 69 - layer_name conv_dw_11_bn, train_score: 1.0000, val_score: 0.5556
+2019-08-26 10:42:00,358 - INFO - find_best_layer - ===
+2019-08-26 10:42:00,358 - INFO - find_best_layer - process layer: 76 - 64
+2019-08-26 10:42:00,358 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 10:42:00,362 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 64, nr_images 8100, and normalize settings: none
+2019-08-26 10:42:48,988 - INFO - find_best_layer - no normalization
+2019-08-26 10:43:51,903 - INFO - find_best_layer - score for layer 64 - layer_name conv_dw_10_relu, train_score: 1.0000, val_score: 0.6667
+2019-08-26 10:43:51,909 - INFO - find_best_layer - ===
+2019-08-26 10:43:51,910 - INFO - find_best_layer - process layer: 77 - 28
+2019-08-26 10:43:51,910 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 10:43:51,913 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 28, nr_images 8100, and normalize settings: none
+2019-08-26 10:44:26,008 - INFO - find_best_layer - no normalization
+2019-08-26 10:46:38,481 - INFO - find_best_layer - score for layer 28 - layer_name conv_pw_4, train_score: 1.0000, val_score: 0.8519
+2019-08-26 10:46:38,487 - INFO - find_best_layer - ===
+2019-08-26 10:46:38,488 - INFO - find_best_layer - process layer: 78 - 30
+2019-08-26 10:46:38,488 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 10:46:38,491 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 30, nr_images 8100, and normalize settings: none
+2019-08-26 10:47:13,119 - INFO - find_best_layer - no normalization
+2019-08-26 10:49:29,518 - INFO - find_best_layer - score for layer 30 - layer_name conv_pw_4_relu, train_score: 1.0000, val_score: 0.9012
+2019-08-26 10:49:29,525 - INFO - find_best_layer - ===
+2019-08-26 10:49:29,525 - INFO - find_best_layer - process layer: 79 - 21
+2019-08-26 10:49:29,525 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 10:49:29,529 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 21, nr_images 8100, and normalize settings: none
+2019-08-26 10:50:00,897 - INFO - find_best_layer - no normalization
+2019-08-26 10:54:36,104 - INFO - find_best_layer - score for layer 21 - layer_name conv_pw_3, train_score: 1.0000, val_score: 0.7160
+2019-08-26 10:54:36,111 - INFO - find_best_layer - ===
+2019-08-26 10:54:36,111 - INFO - find_best_layer - process layer: 80 - 82
+2019-08-26 10:54:36,111 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 10:54:36,115 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 82, nr_images 8100, and normalize settings: none
+2019-08-26 10:55:24,014 - INFO - find_best_layer - no normalization
+2019-08-26 10:55:55,494 - INFO - find_best_layer - score for layer 82 - layer_name conv_dw_13_bn, train_score: 1.0000, val_score: 0.6914
+2019-08-26 10:55:55,503 - INFO - find_best_layer - ===
+2019-08-26 10:55:55,504 - INFO - find_best_layer - process layer: 81 - 27
+2019-08-26 10:55:55,504 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 10:55:55,508 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 27, nr_images 8100, and normalize settings: none
+2019-08-26 10:56:28,337 - INFO - find_best_layer - no normalization
+2019-08-26 10:57:31,403 - INFO - find_best_layer - score for layer 27 - layer_name conv_dw_4_relu, train_score: 1.0000, val_score: 0.9259
+2019-08-26 10:57:31,410 - INFO - find_best_layer - ===
+2019-08-26 10:57:31,410 - INFO - find_best_layer - process layer: 82 - 8
+2019-08-26 10:57:31,410 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 10:57:31,414 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 8, nr_images 8100, and normalize settings: none
+2019-08-26 10:57:42,775 - INFO - find_best_layer - no normalization
+2019-08-26 11:07:34,394 - INFO - find_best_layer - score for layer 8 - layer_name conv_pw_1, train_score: 0.9999, val_score: 0.4444
+2019-08-26 11:07:34,401 - INFO - find_best_layer - ===
+2019-08-26 11:07:34,401 - INFO - find_best_layer - process layer: 83 - 54
+2019-08-26 11:07:34,401 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 11:07:34,405 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 54, nr_images 8100, and normalize settings: none
+2019-08-26 11:08:19,803 - INFO - find_best_layer - no normalization
+2019-08-26 11:09:23,504 - INFO - find_best_layer - score for layer 54 - layer_name conv_pw_8_bn, train_score: 1.0000, val_score: 0.7407
+2019-08-26 11:09:23,512 - INFO - find_best_layer - ===
+2019-08-26 11:09:23,512 - INFO - find_best_layer - process layer: 84 - 51
+2019-08-26 11:09:23,512 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 11:09:23,516 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 51, nr_images 8100, and normalize settings: none
+2019-08-26 11:10:07,037 - INFO - find_best_layer - no normalization
+2019-08-26 11:11:10,181 - INFO - find_best_layer - score for layer 51 - layer_name conv_dw_8_bn, train_score: 1.0000, val_score: 0.6790
+2019-08-26 11:11:10,188 - INFO - find_best_layer - ===
+2019-08-26 11:11:10,188 - INFO - find_best_layer - process layer: 85 - 38
+2019-08-26 11:11:10,188 - INFO - find_best_layer - Memory usage: 26994592, diff: 0
+2019-08-26 11:11:10,192 - INFO - find_best_layer - 0 previous results for model mobilenet, layer 38, nr_images 8100, and normalize settings: none
+2019-08-26 11:11:45,063 - INFO - find_best_layer - no normalization
+2019-08-26 11:12:15,955 - INFO - find_best_layer - score for layer 38 - layer_name conv_dw_6, train_score: 1.0000, val_score: 0.8889
