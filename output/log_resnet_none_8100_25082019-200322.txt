@@ -943,3 +943,8 @@
 2019-08-26 04:48:44,001 - INFO - find_best_layer - Memory usage: 28545416, diff: 0
 2019-08-26 04:48:44,004 - INFO - find_best_layer - 0 previous results for model resnet, layer 46, nr_images 8100, and normalize settings: none
 2019-08-26 04:49:38,126 - INFO - find_best_layer - no normalization
+2019-08-26 04:54:06,503 - INFO - find_best_layer - score for layer 46 - layer_name res3a_branch1, train_score: 1.0000, val_score: 0.9136
+2019-08-26 04:54:06,508 - INFO - find_best_layer - ===
+2019-08-26 04:54:06,509 - INFO - find_best_layer - process layer: 156 - 17
+2019-08-26 04:54:06,509 - INFO - find_best_layer - Memory usage: 28545416, diff: 0
+2019-08-26 04:54:06,512 - INFO - find_best_layer - 0 previous results for model resnet, layer 17, nr_images 8100, and normalize settings: none
