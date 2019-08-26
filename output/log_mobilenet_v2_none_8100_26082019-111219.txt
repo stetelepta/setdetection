@@ -64,3 +64,874 @@ Call initializer instance with the dtype argument instead of passing it to the c
 2019-08-26 11:36:21,307 - INFO - find_best_layer - Memory usage: 16818336, diff: 0
 2019-08-26 11:36:21,311 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 11, nr_images 8100, and normalize settings: none
 2019-08-26 11:36:43,171 - INFO - find_best_layer - no normalization
+2019-08-26 11:50:13,882 - INFO - find_best_layer - score for layer 11 - layer_name block_1_expand_BN, train_score: 1.0000, val_score: 0.2840
+2019-08-26 11:50:13,892 - INFO - find_best_layer - ===
+2019-08-26 11:50:13,892 - INFO - find_best_layer - process layer: 9 - 10
+2019-08-26 11:50:13,892 - INFO - find_best_layer - Memory usage: 38314764, diff: 21496428
+2019-08-26 11:50:13,898 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 10, nr_images 8100, and normalize settings: none
+2019-08-26 11:50:28,229 - INFO - find_best_layer - no normalization
+2019-08-26 12:03:52,181 - INFO - find_best_layer - score for layer 10 - layer_name block_1_expand, train_score: 1.0000, val_score: 0.3333
+2019-08-26 12:03:52,189 - INFO - find_best_layer - ===
+2019-08-26 12:03:52,189 - INFO - find_best_layer - process layer: 10 - 3
+2019-08-26 12:03:52,189 - INFO - find_best_layer - Memory usage: 38455276, diff: 140512
+2019-08-26 12:03:52,194 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 3, nr_images 8100, and normalize settings: none
+2019-08-26 12:03:59,207 - INFO - find_best_layer - no normalization
+2019-08-26 12:08:38,003 - INFO - find_best_layer - score for layer 3 - layer_name bn_Conv1, train_score: 0.9760, val_score: 0.1852
+2019-08-26 12:08:38,011 - INFO - find_best_layer - ===
+2019-08-26 12:08:38,011 - INFO - find_best_layer - process layer: 11 - 88
+2019-08-26 12:08:38,011 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 12:08:38,015 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 88, nr_images 8100, and normalize settings: none
+2019-08-26 12:09:29,353 - INFO - find_best_layer - no normalization
+2019-08-26 12:09:37,360 - INFO - find_best_layer - score for layer 88 - layer_name block_9_project, train_score: 1.0000, val_score: 0.8395
+2019-08-26 12:09:37,367 - INFO - find_best_layer - ===
+2019-08-26 12:09:37,367 - INFO - find_best_layer - process layer: 12 - 105
+2019-08-26 12:09:37,367 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 12:09:37,371 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 105, nr_images 8100, and normalize settings: none
+2019-08-26 12:10:33,102 - INFO - find_best_layer - no normalization
+2019-08-26 12:10:44,556 - INFO - find_best_layer - score for layer 105 - layer_name block_11_project, train_score: 1.0000, val_score: 0.8025
+2019-08-26 12:10:44,563 - INFO - find_best_layer - ===
+2019-08-26 12:10:44,563 - INFO - find_best_layer - process layer: 13 - 126
+2019-08-26 12:10:44,563 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 12:10:44,567 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 126, nr_images 8100, and normalize settings: none
+2019-08-26 12:11:44,797 - INFO - find_best_layer - no normalization
+2019-08-26 12:12:14,684 - INFO - find_best_layer - score for layer 126 - layer_name block_14_expand, train_score: 1.0000, val_score: 0.8148
+2019-08-26 12:12:14,692 - INFO - find_best_layer - ===
+2019-08-26 12:12:14,692 - INFO - find_best_layer - process layer: 14 - 121
+2019-08-26 12:12:14,692 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 12:12:14,696 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 121, nr_images 8100, and normalize settings: none
+2019-08-26 12:13:15,871 - INFO - find_best_layer - no normalization
+2019-08-26 12:13:33,138 - INFO - find_best_layer - score for layer 121 - layer_name block_13_depthwise, train_score: 1.0000, val_score: 0.8272
+2019-08-26 12:13:33,147 - INFO - find_best_layer - ===
+2019-08-26 12:13:33,147 - INFO - find_best_layer - process layer: 15 - 83
+2019-08-26 12:13:33,147 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 12:13:33,151 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 83, nr_images 8100, and normalize settings: none
+2019-08-26 12:14:39,121 - INFO - find_best_layer - no normalization
+2019-08-26 12:15:27,055 - INFO - find_best_layer - score for layer 83 - layer_name block_9_expand_BN, train_score: 1.0000, val_score: 0.9506
+2019-08-26 12:15:27,062 - INFO - find_best_layer - ===
+2019-08-26 12:15:27,062 - INFO - find_best_layer - process layer: 16 - 101
+2019-08-26 12:15:27,063 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 12:15:27,066 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 101, nr_images 8100, and normalize settings: none
+2019-08-26 12:16:34,668 - INFO - find_best_layer - no normalization
+2019-08-26 12:17:49,248 - INFO - find_best_layer - score for layer 101 - layer_name block_11_expand_relu, train_score: 1.0000, val_score: 0.9259
+2019-08-26 12:17:49,256 - INFO - find_best_layer - ===
+2019-08-26 12:17:49,256 - INFO - find_best_layer - process layer: 17 - 70
+2019-08-26 12:17:49,256 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 12:17:49,260 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 70, nr_images 8100, and normalize settings: none
+2019-08-26 12:18:38,474 - INFO - find_best_layer - no normalization
+2019-08-26 12:18:46,445 - INFO - find_best_layer - score for layer 70 - layer_name block_7_project, train_score: 1.0000, val_score: 0.9259
+2019-08-26 12:18:46,451 - INFO - find_best_layer - ===
+2019-08-26 12:18:46,452 - INFO - find_best_layer - process layer: 18 - 153
+2019-08-26 12:18:46,452 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 12:18:46,456 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 153, nr_images 8100, and normalize settings: none
+2019-08-26 12:19:50,702 - INFO - find_best_layer - no normalization
+2019-08-26 12:20:29,939 - INFO - find_best_layer - score for layer 153 - layer_name Conv_1_bn, train_score: 1.0000, val_score: 0.7037
+2019-08-26 12:20:29,946 - INFO - find_best_layer - ===
+2019-08-26 12:20:29,946 - INFO - find_best_layer - process layer: 19 - 128
+2019-08-26 12:20:29,946 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 12:20:29,950 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 128, nr_images 8100, and normalize settings: none
+2019-08-26 12:21:30,642 - INFO - find_best_layer - no normalization
+2019-08-26 12:22:02,178 - INFO - find_best_layer - score for layer 128 - layer_name block_14_expand_relu, train_score: 1.0000, val_score: 0.7531
+2019-08-26 12:22:02,187 - INFO - find_best_layer - ===
+2019-08-26 12:22:02,187 - INFO - find_best_layer - process layer: 20 - 41
+2019-08-26 12:22:02,187 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 12:22:02,192 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 41, nr_images 8100, and normalize settings: none
+2019-08-26 12:22:57,411 - INFO - find_best_layer - no normalization
+2019-08-26 12:24:36,990 - INFO - find_best_layer - score for layer 41 - layer_name block_4_depthwise_BN, train_score: 1.0000, val_score: 0.8642
+2019-08-26 12:24:36,997 - INFO - find_best_layer - ===
+2019-08-26 12:24:36,997 - INFO - find_best_layer - process layer: 21 - 68
+2019-08-26 12:24:36,998 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 12:24:37,002 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 68, nr_images 8100, and normalize settings: none
+2019-08-26 12:25:40,566 - INFO - find_best_layer - no normalization
+2019-08-26 12:26:30,426 - INFO - find_best_layer - score for layer 68 - layer_name block_7_depthwise_BN, train_score: 1.0000, val_score: 0.9877
+2019-08-26 12:26:30,434 - INFO - find_best_layer - ===
+2019-08-26 12:26:30,434 - INFO - find_best_layer - process layer: 22 - 100
+2019-08-26 12:26:30,434 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 12:26:30,439 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 100, nr_images 8100, and normalize settings: none
+2019-08-26 12:27:38,582 - INFO - find_best_layer - no normalization
+2019-08-26 12:28:52,825 - INFO - find_best_layer - score for layer 100 - layer_name block_11_expand_BN, train_score: 1.0000, val_score: 0.8765
+2019-08-26 12:28:52,832 - INFO - find_best_layer - ===
+2019-08-26 12:28:52,832 - INFO - find_best_layer - process layer: 23 - 64
+2019-08-26 12:28:52,832 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 12:28:52,836 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 64, nr_images 8100, and normalize settings: none
+2019-08-26 12:29:56,343 - INFO - find_best_layer - no normalization
+2019-08-26 12:30:43,970 - INFO - find_best_layer - score for layer 64 - layer_name block_7_expand, train_score: 1.0000, val_score: 0.9259
+2019-08-26 12:30:43,978 - INFO - find_best_layer - ===
+2019-08-26 12:30:43,979 - INFO - find_best_layer - process layer: 24 - 84
+2019-08-26 12:30:43,979 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 12:30:43,983 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 84, nr_images 8100, and normalize settings: none
+2019-08-26 12:31:48,883 - INFO - find_best_layer - no normalization
+2019-08-26 12:32:37,470 - INFO - find_best_layer - score for layer 84 - layer_name block_9_expand_relu, train_score: 1.0000, val_score: 0.9383
+2019-08-26 12:32:37,477 - INFO - find_best_layer - ===
+2019-08-26 12:32:37,477 - INFO - find_best_layer - process layer: 25 - 1
+2019-08-26 12:32:37,477 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 12:32:37,481 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 1, nr_images 8100, and normalize settings: none
+2019-08-26 12:32:42,413 - INFO - find_best_layer - no normalization
+2019-08-26 12:34:20,522 - INFO - find_best_layer - score for layer 1 - layer_name Conv1_pad, train_score: 0.9960, val_score: 0.4568
+2019-08-26 12:34:20,529 - INFO - find_best_layer - ===
+2019-08-26 12:34:20,529 - INFO - find_best_layer - process layer: 26 - 108
+2019-08-26 12:34:20,529 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 12:34:20,533 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 108, nr_images 8100, and normalize settings: none
+2019-08-26 12:35:28,762 - INFO - find_best_layer - no normalization
+2019-08-26 12:36:42,945 - INFO - find_best_layer - score for layer 108 - layer_name block_12_expand, train_score: 1.0000, val_score: 0.8519
+2019-08-26 12:36:42,952 - INFO - find_best_layer - ===
+2019-08-26 12:36:42,952 - INFO - find_best_layer - process layer: 27 - 12
+2019-08-26 12:36:42,952 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 12:36:42,956 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 12, nr_images 8100, and normalize settings: none
+2019-08-26 12:37:00,679 - INFO - find_best_layer - no normalization
+2019-08-26 12:50:22,912 - INFO - find_best_layer - score for layer 12 - layer_name block_1_expand_relu, train_score: 1.0000, val_score: 0.4815
+2019-08-26 12:50:22,920 - INFO - find_best_layer - ===
+2019-08-26 12:50:22,920 - INFO - find_best_layer - process layer: 28 - 96
+2019-08-26 12:50:22,920 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 12:50:22,924 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 96, nr_images 8100, and normalize settings: none
+2019-08-26 12:51:33,021 - INFO - find_best_layer - no normalization
+2019-08-26 12:52:26,631 - INFO - find_best_layer - score for layer 96 - layer_name block_10_depthwise_relu, train_score: 1.0000, val_score: 0.8765
+2019-08-26 12:52:26,639 - INFO - find_best_layer - ===
+2019-08-26 12:52:26,639 - INFO - find_best_layer - process layer: 29 - 103
+2019-08-26 12:52:26,639 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 12:52:26,647 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 103, nr_images 8100, and normalize settings: none
+2019-08-26 12:53:38,240 - INFO - find_best_layer - no normalization
+2019-08-26 12:54:51,903 - INFO - find_best_layer - score for layer 103 - layer_name block_11_depthwise_BN, train_score: 1.0000, val_score: 0.8765
+2019-08-26 12:54:51,911 - INFO - find_best_layer - ===
+2019-08-26 12:54:51,911 - INFO - find_best_layer - process layer: 30 - 110
+2019-08-26 12:54:51,911 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 12:54:51,915 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 110, nr_images 8100, and normalize settings: none
+2019-08-26 12:56:02,817 - INFO - find_best_layer - no normalization
+2019-08-26 12:57:15,966 - INFO - find_best_layer - score for layer 110 - layer_name block_12_expand_relu, train_score: 1.0000, val_score: 0.7901
+2019-08-26 12:57:15,973 - INFO - find_best_layer - ===
+2019-08-26 12:57:15,974 - INFO - find_best_layer - process layer: 31 - 148
+2019-08-26 12:57:15,974 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 12:57:15,978 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 148, nr_images 8100, and normalize settings: none
+2019-08-26 12:58:20,995 - INFO - find_best_layer - no normalization
+2019-08-26 12:58:49,629 - INFO - find_best_layer - score for layer 148 - layer_name block_16_depthwise_BN, train_score: 1.0000, val_score: 0.6790
+2019-08-26 12:58:49,635 - INFO - find_best_layer - ===
+2019-08-26 12:58:49,636 - INFO - find_best_layer - process layer: 32 - 34
+2019-08-26 12:58:49,636 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 12:58:49,640 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 34, nr_images 8100, and normalize settings: none
+2019-08-26 12:59:43,225 - INFO - find_best_layer - no normalization
+2019-08-26 13:00:57,547 - INFO - find_best_layer - score for layer 34 - layer_name block_3_depthwise_relu, train_score: 1.0000, val_score: 0.9506
+2019-08-26 13:00:57,554 - INFO - find_best_layer - ===
+2019-08-26 13:00:57,554 - INFO - find_best_layer - process layer: 33 - 91
+2019-08-26 13:00:57,554 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:00:57,558 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 91, nr_images 8100, and normalize settings: none
+2019-08-26 13:02:06,159 - INFO - find_best_layer - no normalization
+2019-08-26 13:02:54,608 - INFO - find_best_layer - score for layer 91 - layer_name block_10_expand, train_score: 1.0000, val_score: 0.9383
+2019-08-26 13:02:54,616 - INFO - find_best_layer - ===
+2019-08-26 13:02:54,616 - INFO - find_best_layer - process layer: 34 - 145
+2019-08-26 13:02:54,616 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:02:54,620 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 145, nr_images 8100, and normalize settings: none
+2019-08-26 13:04:00,604 - INFO - find_best_layer - no normalization
+2019-08-26 13:04:30,768 - INFO - find_best_layer - score for layer 145 - layer_name block_16_expand_BN, train_score: 1.0000, val_score: 0.6914
+2019-08-26 13:04:30,775 - INFO - find_best_layer - ===
+2019-08-26 13:04:30,775 - INFO - find_best_layer - process layer: 35 - 154
+2019-08-26 13:04:30,775 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:04:30,779 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 154, nr_images 8100, and normalize settings: none
+2019-08-26 13:05:37,846 - INFO - find_best_layer - no normalization
+2019-08-26 13:06:19,550 - INFO - find_best_layer - score for layer 154 - layer_name out_relu, train_score: 1.0000, val_score: 0.6914
+2019-08-26 13:06:19,558 - INFO - find_best_layer - ===
+2019-08-26 13:06:19,558 - INFO - find_best_layer - process layer: 36 - 98
+2019-08-26 13:06:19,558 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:06:19,562 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 98, nr_images 8100, and normalize settings: none
+2019-08-26 13:07:14,614 - INFO - find_best_layer - no normalization
+2019-08-26 13:07:26,105 - INFO - find_best_layer - score for layer 98 - layer_name block_10_project_BN, train_score: 1.0000, val_score: 0.9012
+2019-08-26 13:07:26,112 - INFO - find_best_layer - ===
+2019-08-26 13:07:26,112 - INFO - find_best_layer - process layer: 37 - 19
+2019-08-26 13:07:26,112 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:07:26,116 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 19, nr_images 8100, and normalize settings: none
+2019-08-26 13:08:02,971 - INFO - find_best_layer - no normalization
+2019-08-26 13:13:18,339 - INFO - find_best_layer - score for layer 19 - layer_name block_2_expand, train_score: 1.0000, val_score: 0.8395
+2019-08-26 13:13:18,346 - INFO - find_best_layer - ===
+2019-08-26 13:13:18,346 - INFO - find_best_layer - process layer: 38 - 71
+2019-08-26 13:13:18,346 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:13:18,351 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 71, nr_images 8100, and normalize settings: none
+2019-08-26 13:14:09,643 - INFO - find_best_layer - no normalization
+2019-08-26 13:14:17,857 - INFO - find_best_layer - score for layer 71 - layer_name block_7_project_BN, train_score: 1.0000, val_score: 0.9630
+2019-08-26 13:14:17,864 - INFO - find_best_layer - ===
+2019-08-26 13:14:17,864 - INFO - find_best_layer - process layer: 39 - 119
+2019-08-26 13:14:17,864 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:14:17,868 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 119, nr_images 8100, and normalize settings: none
+2019-08-26 13:15:32,808 - INFO - find_best_layer - no normalization
+2019-08-26 13:16:47,519 - INFO - find_best_layer - score for layer 119 - layer_name block_13_expand_relu, train_score: 1.0000, val_score: 0.8025
+2019-08-26 13:16:47,526 - INFO - find_best_layer - ===
+2019-08-26 13:16:47,527 - INFO - find_best_layer - process layer: 40 - 78
+2019-08-26 13:16:47,527 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:16:47,531 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 78, nr_images 8100, and normalize settings: none
+2019-08-26 13:17:53,386 - INFO - find_best_layer - no normalization
+2019-08-26 13:18:43,808 - INFO - find_best_layer - score for layer 78 - layer_name block_8_depthwise_relu, train_score: 1.0000, val_score: 0.8889
+2019-08-26 13:18:43,817 - INFO - find_best_layer - ===
+2019-08-26 13:18:43,817 - INFO - find_best_layer - process layer: 41 - 40
+2019-08-26 13:18:43,817 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:18:43,822 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 40, nr_images 8100, and normalize settings: none
+2019-08-26 13:19:43,667 - INFO - find_best_layer - no normalization
+2019-08-26 13:21:25,320 - INFO - find_best_layer - score for layer 40 - layer_name block_4_depthwise, train_score: 1.0000, val_score: 0.9630
+2019-08-26 13:21:25,328 - INFO - find_best_layer - ===
+2019-08-26 13:21:25,328 - INFO - find_best_layer - process layer: 42 - 140
+2019-08-26 13:21:25,328 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:21:25,333 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 140, nr_images 8100, and normalize settings: none
+2019-08-26 13:22:31,226 - INFO - find_best_layer - no normalization
+2019-08-26 13:23:01,820 - INFO - find_best_layer - score for layer 140 - layer_name block_15_depthwise_relu, train_score: 0.9999, val_score: 0.6790
+2019-08-26 13:23:01,827 - INFO - find_best_layer - ===
+2019-08-26 13:23:01,828 - INFO - find_best_layer - process layer: 43 - 147
+2019-08-26 13:23:01,828 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:23:01,832 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 147, nr_images 8100, and normalize settings: none
+2019-08-26 13:24:08,538 - INFO - find_best_layer - no normalization
+2019-08-26 13:24:39,242 - INFO - find_best_layer - score for layer 147 - layer_name block_16_depthwise, train_score: 1.0000, val_score: 0.6667
+2019-08-26 13:24:39,250 - INFO - find_best_layer - ===
+2019-08-26 13:24:39,250 - INFO - find_best_layer - process layer: 44 - 73
+2019-08-26 13:24:39,250 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:24:39,255 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 73, nr_images 8100, and normalize settings: none
+2019-08-26 13:25:45,203 - INFO - find_best_layer - no normalization
+2019-08-26 13:26:36,607 - INFO - find_best_layer - score for layer 73 - layer_name block_8_expand, train_score: 1.0000, val_score: 0.8642
+2019-08-26 13:26:36,615 - INFO - find_best_layer - ===
+2019-08-26 13:26:36,615 - INFO - find_best_layer - process layer: 45 - 82
+2019-08-26 13:26:36,615 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:26:36,619 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 82, nr_images 8100, and normalize settings: none
+2019-08-26 13:27:45,096 - INFO - find_best_layer - no normalization
+2019-08-26 13:28:32,979 - INFO - find_best_layer - score for layer 82 - layer_name block_9_expand, train_score: 1.0000, val_score: 0.9506
+2019-08-26 13:28:32,986 - INFO - find_best_layer - ===
+2019-08-26 13:28:32,986 - INFO - find_best_layer - process layer: 46 - 59
+2019-08-26 13:28:32,986 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:28:32,990 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 59, nr_images 8100, and normalize settings: none
+2019-08-26 13:29:22,483 - INFO - find_best_layer - no normalization
+2019-08-26 13:29:45,034 - INFO - find_best_layer - score for layer 59 - layer_name block_6_depthwise, train_score: 1.0000, val_score: 0.9877
+2019-08-26 13:29:45,042 - INFO - find_best_layer - ===
+2019-08-26 13:29:45,042 - INFO - find_best_layer - process layer: 47 - 141
+2019-08-26 13:29:45,042 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:29:45,046 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 141, nr_images 8100, and normalize settings: none
+2019-08-26 13:30:49,757 - INFO - find_best_layer - no normalization
+2019-08-26 13:30:55,349 - INFO - find_best_layer - score for layer 141 - layer_name block_15_project, train_score: 0.9986, val_score: 0.6420
+2019-08-26 13:30:55,357 - INFO - find_best_layer - ===
+2019-08-26 13:30:55,357 - INFO - find_best_layer - process layer: 48 - 130
+2019-08-26 13:30:55,358 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:30:55,362 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 130, nr_images 8100, and normalize settings: none
+2019-08-26 13:31:58,126 - INFO - find_best_layer - no normalization
+2019-08-26 13:32:29,154 - INFO - find_best_layer - score for layer 130 - layer_name block_14_depthwise_BN, train_score: 1.0000, val_score: 0.7901
+2019-08-26 13:32:29,161 - INFO - find_best_layer - ===
+2019-08-26 13:32:29,161 - INFO - find_best_layer - process layer: 49 - 5
+2019-08-26 13:32:29,161 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:32:29,165 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 5, nr_images 8100, and normalize settings: none
+2019-08-26 13:32:35,861 - INFO - find_best_layer - no normalization
+2019-08-26 13:37:14,008 - INFO - find_best_layer - score for layer 5 - layer_name expanded_conv_depthwise, train_score: 1.0000, val_score: 0.2346
+2019-08-26 13:37:14,016 - INFO - find_best_layer - ===
+2019-08-26 13:37:14,016 - INFO - find_best_layer - process layer: 50 - 143
+2019-08-26 13:37:14,016 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:37:14,020 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 143, nr_images 8100, and normalize settings: none
+2019-08-26 13:38:18,054 - INFO - find_best_layer - no normalization
+2019-08-26 13:38:23,461 - INFO - find_best_layer - score for layer 143 - layer_name block_15_add, train_score: 1.0000, val_score: 0.7778
+2019-08-26 13:38:23,468 - INFO - find_best_layer - ===
+2019-08-26 13:38:23,468 - INFO - find_best_layer - process layer: 51 - 44
+2019-08-26 13:38:23,468 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:38:23,472 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 44, nr_images 8100, and normalize settings: none
+2019-08-26 13:39:08,910 - INFO - find_best_layer - no normalization
+2019-08-26 13:39:23,696 - INFO - find_best_layer - score for layer 44 - layer_name block_4_project_BN, train_score: 1.0000, val_score: 0.8889
+2019-08-26 13:39:23,703 - INFO - find_best_layer - ===
+2019-08-26 13:39:23,703 - INFO - find_best_layer - process layer: 52 - 79
+2019-08-26 13:39:23,703 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:39:23,707 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 79, nr_images 8100, and normalize settings: none
+2019-08-26 13:40:15,506 - INFO - find_best_layer - no normalization
+2019-08-26 13:40:23,662 - INFO - find_best_layer - score for layer 79 - layer_name block_8_project, train_score: 1.0000, val_score: 0.7778
+2019-08-26 13:40:23,669 - INFO - find_best_layer - ===
+2019-08-26 13:40:23,669 - INFO - find_best_layer - process layer: 53 - 133
+2019-08-26 13:40:23,669 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:40:23,673 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 133, nr_images 8100, and normalize settings: none
+2019-08-26 13:41:26,530 - INFO - find_best_layer - no normalization
+2019-08-26 13:41:32,021 - INFO - find_best_layer - score for layer 133 - layer_name block_14_project_BN, train_score: 1.0000, val_score: 0.7284
+2019-08-26 13:41:32,028 - INFO - find_best_layer - ===
+2019-08-26 13:41:32,046 - INFO - find_best_layer - process layer: 54 - 132
+2019-08-26 13:41:32,046 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:41:32,050 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 132, nr_images 8100, and normalize settings: none
+2019-08-26 13:42:35,061 - INFO - find_best_layer - no normalization
+2019-08-26 13:42:40,530 - INFO - find_best_layer - score for layer 132 - layer_name block_14_project, train_score: 1.0000, val_score: 0.6790
+2019-08-26 13:42:40,538 - INFO - find_best_layer - ===
+2019-08-26 13:42:40,538 - INFO - find_best_layer - process layer: 55 - 113
+2019-08-26 13:42:40,538 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:42:40,542 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 113, nr_images 8100, and normalize settings: none
+2019-08-26 13:43:52,081 - INFO - find_best_layer - no normalization
+2019-08-26 13:45:01,878 - INFO - find_best_layer - score for layer 113 - layer_name block_12_depthwise_relu, train_score: 1.0000, val_score: 0.7407
+2019-08-26 13:45:01,886 - INFO - find_best_layer - ===
+2019-08-26 13:45:01,886 - INFO - find_best_layer - process layer: 56 - 112
+2019-08-26 13:45:01,886 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:45:01,890 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 112, nr_images 8100, and normalize settings: none
+2019-08-26 13:46:13,735 - INFO - find_best_layer - no normalization
+2019-08-26 13:47:25,724 - INFO - find_best_layer - score for layer 112 - layer_name block_12_depthwise_BN, train_score: 1.0000, val_score: 0.7901
+2019-08-26 13:47:25,731 - INFO - find_best_layer - ===
+2019-08-26 13:47:25,732 - INFO - find_best_layer - process layer: 57 - 75
+2019-08-26 13:47:25,732 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:47:25,735 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 75, nr_images 8100, and normalize settings: none
+2019-08-26 13:48:30,700 - INFO - find_best_layer - no normalization
+2019-08-26 13:49:19,046 - INFO - find_best_layer - score for layer 75 - layer_name block_8_expand_relu, train_score: 1.0000, val_score: 0.9383
+2019-08-26 13:49:19,054 - INFO - find_best_layer - ===
+2019-08-26 13:49:19,054 - INFO - find_best_layer - process layer: 58 - 135
+2019-08-26 13:49:19,054 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:49:19,058 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 135, nr_images 8100, and normalize settings: none
+2019-08-26 13:50:22,850 - INFO - find_best_layer - no normalization
+2019-08-26 13:50:53,560 - INFO - find_best_layer - score for layer 135 - layer_name block_15_expand, train_score: 1.0000, val_score: 0.7160
+2019-08-26 13:50:53,567 - INFO - find_best_layer - ===
+2019-08-26 13:50:53,568 - INFO - find_best_layer - process layer: 59 - 92
+2019-08-26 13:50:53,568 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:50:53,572 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 92, nr_images 8100, and normalize settings: none
+2019-08-26 13:52:01,932 - INFO - find_best_layer - no normalization
+2019-08-26 13:52:52,987 - INFO - find_best_layer - score for layer 92 - layer_name block_10_expand_BN, train_score: 1.0000, val_score: 0.9630
+2019-08-26 13:52:52,996 - INFO - find_best_layer - ===
+2019-08-26 13:52:52,996 - INFO - find_best_layer - process layer: 60 - 52
+2019-08-26 13:52:52,997 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:52:53,001 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 52, nr_images 8100, and normalize settings: none
+2019-08-26 13:53:38,677 - INFO - find_best_layer - no normalization
+2019-08-26 13:53:54,229 - INFO - find_best_layer - score for layer 52 - layer_name block_5_project, train_score: 1.0000, val_score: 0.8765
+2019-08-26 13:53:54,237 - INFO - find_best_layer - ===
+2019-08-26 13:53:54,238 - INFO - find_best_layer - process layer: 61 - 139
+2019-08-26 13:53:54,238 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:53:54,242 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 139, nr_images 8100, and normalize settings: none
+2019-08-26 13:54:57,705 - INFO - find_best_layer - no normalization
+2019-08-26 13:55:25,644 - INFO - find_best_layer - score for layer 139 - layer_name block_15_depthwise_BN, train_score: 0.9989, val_score: 0.6049
+2019-08-26 13:55:25,651 - INFO - find_best_layer - ===
+2019-08-26 13:55:25,651 - INFO - find_best_layer - process layer: 62 - 74
+2019-08-26 13:55:25,651 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:55:25,655 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 74, nr_images 8100, and normalize settings: none
+2019-08-26 13:56:32,233 - INFO - find_best_layer - no normalization
+2019-08-26 13:57:21,661 - INFO - find_best_layer - score for layer 74 - layer_name block_8_expand_BN, train_score: 1.0000, val_score: 0.9506
+2019-08-26 13:57:21,669 - INFO - find_best_layer - ===
+2019-08-26 13:57:21,669 - INFO - find_best_layer - process layer: 63 - 80
+2019-08-26 13:57:21,669 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:57:21,673 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 80, nr_images 8100, and normalize settings: none
+2019-08-26 13:58:14,155 - INFO - find_best_layer - no normalization
+2019-08-26 13:58:22,347 - INFO - find_best_layer - score for layer 80 - layer_name block_8_project_BN, train_score: 1.0000, val_score: 0.8025
+2019-08-26 13:58:22,355 - INFO - find_best_layer - ===
+2019-08-26 13:58:22,355 - INFO - find_best_layer - process layer: 64 - 69
+2019-08-26 13:58:22,355 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 13:58:22,359 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 69, nr_images 8100, and normalize settings: none
+2019-08-26 13:59:27,868 - INFO - find_best_layer - no normalization
+2019-08-26 14:00:21,270 - INFO - find_best_layer - score for layer 69 - layer_name block_7_depthwise_relu, train_score: 1.0000, val_score: 0.9506
+2019-08-26 14:00:21,278 - INFO - find_best_layer - ===
+2019-08-26 14:00:21,278 - INFO - find_best_layer - process layer: 65 - 22
+2019-08-26 14:00:21,278 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 14:00:21,283 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 22, nr_images 8100, and normalize settings: none
+2019-08-26 14:01:04,321 - INFO - find_best_layer - no normalization
+2019-08-26 14:06:15,713 - INFO - find_best_layer - score for layer 22 - layer_name block_2_depthwise, train_score: 1.0000, val_score: 0.7407
+2019-08-26 14:06:15,721 - INFO - find_best_layer - ===
+2019-08-26 14:06:15,721 - INFO - find_best_layer - process layer: 66 - 62
+2019-08-26 14:06:15,721 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 14:06:15,725 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 62, nr_images 8100, and normalize settings: none
+2019-08-26 14:07:04,384 - INFO - find_best_layer - no normalization
+2019-08-26 14:07:12,418 - INFO - find_best_layer - score for layer 62 - layer_name block_6_project, train_score: 1.0000, val_score: 0.9630
+2019-08-26 14:07:12,424 - INFO - find_best_layer - ===
+2019-08-26 14:07:12,424 - INFO - find_best_layer - process layer: 67 - 72
+2019-08-26 14:07:12,425 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 14:07:12,428 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 72, nr_images 8100, and normalize settings: none
+2019-08-26 14:08:02,675 - INFO - find_best_layer - no normalization
+2019-08-26 14:08:10,904 - INFO - find_best_layer - score for layer 72 - layer_name block_7_add, train_score: 1.0000, val_score: 0.9506
+2019-08-26 14:08:10,911 - INFO - find_best_layer - ===
+2019-08-26 14:08:10,912 - INFO - find_best_layer - process layer: 68 - 144
+2019-08-26 14:08:10,912 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 14:08:10,915 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 144, nr_images 8100, and normalize settings: none
+2019-08-26 14:09:16,332 - INFO - find_best_layer - no normalization
+2019-08-26 14:09:45,141 - INFO - find_best_layer - score for layer 144 - layer_name block_16_expand, train_score: 1.0000, val_score: 0.7284
+2019-08-26 14:09:45,148 - INFO - find_best_layer - ===
+2019-08-26 14:09:45,149 - INFO - find_best_layer - process layer: 69 - 89
+2019-08-26 14:09:45,149 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 14:09:45,153 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 89, nr_images 8100, and normalize settings: none
+2019-08-26 14:10:38,533 - INFO - find_best_layer - no normalization
+2019-08-26 14:10:46,606 - INFO - find_best_layer - score for layer 89 - layer_name block_9_project_BN, train_score: 1.0000, val_score: 0.8642
+2019-08-26 14:10:46,613 - INFO - find_best_layer - ===
+2019-08-26 14:10:46,613 - INFO - find_best_layer - process layer: 70 - 152
+2019-08-26 14:10:46,613 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 14:10:46,617 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 152, nr_images 8100, and normalize settings: none
+2019-08-26 14:11:53,591 - INFO - find_best_layer - no normalization
+2019-08-26 14:12:33,916 - INFO - find_best_layer - score for layer 152 - layer_name Conv_1, train_score: 1.0000, val_score: 0.7160
+2019-08-26 14:12:33,923 - INFO - find_best_layer - ===
+2019-08-26 14:12:33,923 - INFO - find_best_layer - process layer: 71 - 122
+2019-08-26 14:12:33,923 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 14:12:33,927 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 122, nr_images 8100, and normalize settings: none
+2019-08-26 14:13:36,357 - INFO - find_best_layer - no normalization
+2019-08-26 14:13:53,354 - INFO - find_best_layer - score for layer 122 - layer_name block_13_depthwise_BN, train_score: 1.0000, val_score: 0.7654
+2019-08-26 14:13:53,362 - INFO - find_best_layer - ===
+2019-08-26 14:13:53,362 - INFO - find_best_layer - process layer: 72 - 114
+2019-08-26 14:13:53,362 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 14:13:53,367 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 114, nr_images 8100, and normalize settings: none
+2019-08-26 14:14:51,386 - INFO - find_best_layer - no normalization
+2019-08-26 14:15:02,663 - INFO - find_best_layer - score for layer 114 - layer_name block_12_project, train_score: 1.0000, val_score: 0.7407
+2019-08-26 14:15:02,671 - INFO - find_best_layer - ===
+2019-08-26 14:15:02,671 - INFO - find_best_layer - process layer: 73 - 102
+2019-08-26 14:15:02,671 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 14:15:02,675 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 102, nr_images 8100, and normalize settings: none
+2019-08-26 14:16:12,327 - INFO - find_best_layer - no normalization
+2019-08-26 14:17:28,648 - INFO - find_best_layer - score for layer 102 - layer_name block_11_depthwise, train_score: 1.0000, val_score: 0.9259
+2019-08-26 14:17:28,656 - INFO - find_best_layer - ===
+2019-08-26 14:17:28,656 - INFO - find_best_layer - process layer: 74 - 15
+2019-08-26 14:17:28,656 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 14:17:28,660 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 15, nr_images 8100, and normalize settings: none
+2019-08-26 14:18:07,089 - INFO - find_best_layer - no normalization
+2019-08-26 14:21:45,315 - INFO - find_best_layer - score for layer 15 - layer_name block_1_depthwise_BN, train_score: 1.0000, val_score: 0.6420
+2019-08-26 14:21:45,323 - INFO - find_best_layer - ===
+2019-08-26 14:21:45,323 - INFO - find_best_layer - process layer: 75 - 76
+2019-08-26 14:21:45,323 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 14:21:45,327 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 76, nr_images 8100, and normalize settings: none
+2019-08-26 14:22:51,964 - INFO - find_best_layer - no normalization
+2019-08-26 14:23:37,615 - INFO - find_best_layer - score for layer 76 - layer_name block_8_depthwise, train_score: 1.0000, val_score: 0.9259
+2019-08-26 14:23:37,623 - INFO - find_best_layer - ===
+2019-08-26 14:23:37,623 - INFO - find_best_layer - process layer: 76 - 14
+2019-08-26 14:23:37,623 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 14:23:37,627 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 14, nr_images 8100, and normalize settings: none
+2019-08-26 14:24:14,506 - INFO - find_best_layer - no normalization
+2019-08-26 14:27:43,988 - INFO - find_best_layer - score for layer 14 - layer_name block_1_depthwise, train_score: 1.0000, val_score: 0.6296
+2019-08-26 14:27:43,996 - INFO - find_best_layer - ===
+2019-08-26 14:27:43,996 - INFO - find_best_layer - process layer: 77 - 16
+2019-08-26 14:27:43,996 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 14:27:44,000 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 16, nr_images 8100, and normalize settings: none
+2019-08-26 14:28:22,644 - INFO - find_best_layer - no normalization
+2019-08-26 14:31:48,946 - INFO - find_best_layer - score for layer 16 - layer_name block_1_depthwise_relu, train_score: 1.0000, val_score: 0.7037
+2019-08-26 14:31:48,954 - INFO - find_best_layer - ===
+2019-08-26 14:31:48,954 - INFO - find_best_layer - process layer: 78 - 151
+2019-08-26 14:31:48,954 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 14:31:48,959 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 151, nr_images 8100, and normalize settings: none
+2019-08-26 14:32:56,395 - INFO - find_best_layer - no normalization
+2019-08-26 14:33:06,675 - INFO - find_best_layer - score for layer 151 - layer_name block_16_project_BN, train_score: 1.0000, val_score: 0.7778
+2019-08-26 14:33:06,682 - INFO - find_best_layer - ===
+2019-08-26 14:33:06,683 - INFO - find_best_layer - process layer: 79 - 65
+2019-08-26 14:33:06,683 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 14:33:06,687 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 65, nr_images 8100, and normalize settings: none
+2019-08-26 14:34:12,938 - INFO - find_best_layer - no normalization
+2019-08-26 14:34:59,311 - INFO - find_best_layer - score for layer 65 - layer_name block_7_expand_BN, train_score: 1.0000, val_score: 0.9877
+2019-08-26 14:34:59,319 - INFO - find_best_layer - ===
+2019-08-26 14:34:59,319 - INFO - find_best_layer - process layer: 80 - 20
+2019-08-26 14:34:59,319 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 14:34:59,323 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 20, nr_images 8100, and normalize settings: none
+2019-08-26 14:35:40,494 - INFO - find_best_layer - no normalization
+2019-08-26 14:40:52,079 - INFO - find_best_layer - score for layer 20 - layer_name block_2_expand_BN, train_score: 1.0000, val_score: 0.8025
+2019-08-26 14:40:52,089 - INFO - find_best_layer - ===
+2019-08-26 14:40:52,089 - INFO - find_best_layer - process layer: 81 - 45
+2019-08-26 14:40:52,090 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 14:40:52,095 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 45, nr_images 8100, and normalize settings: none
+2019-08-26 14:41:37,103 - INFO - find_best_layer - no normalization
+2019-08-26 14:41:51,645 - INFO - find_best_layer - score for layer 45 - layer_name block_4_add, train_score: 1.0000, val_score: 0.9630
+2019-08-26 14:41:51,652 - INFO - find_best_layer - ===
+2019-08-26 14:41:51,652 - INFO - find_best_layer - process layer: 82 - 36
+2019-08-26 14:41:51,652 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 14:41:51,656 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 36, nr_images 8100, and normalize settings: none
+2019-08-26 14:42:35,813 - INFO - find_best_layer - no normalization
+2019-08-26 14:42:50,765 - INFO - find_best_layer - score for layer 36 - layer_name block_3_project_BN, train_score: 1.0000, val_score: 0.9753
+2019-08-26 14:42:50,774 - INFO - find_best_layer - ===
+2019-08-26 14:42:50,775 - INFO - find_best_layer - process layer: 83 - 57
+2019-08-26 14:42:50,775 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 14:42:50,780 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 57, nr_images 8100, and normalize settings: none
+2019-08-26 14:43:48,127 - INFO - find_best_layer - no normalization
+2019-08-26 14:45:23,068 - INFO - find_best_layer - score for layer 57 - layer_name block_6_expand_relu, train_score: 1.0000, val_score: 0.9753
+2019-08-26 14:45:23,077 - INFO - find_best_layer - ===
+2019-08-26 14:45:23,077 - INFO - find_best_layer - process layer: 84 - 7
+2019-08-26 14:45:23,077 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 14:45:23,081 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 7, nr_images 8100, and normalize settings: none
+2019-08-26 14:45:30,985 - INFO - find_best_layer - no normalization
+2019-08-26 14:50:28,306 - INFO - find_best_layer - score for layer 7 - layer_name expanded_conv_depthwise_relu, train_score: 1.0000, val_score: 0.2963
+2019-08-26 14:50:28,317 - INFO - find_best_layer - ===
+2019-08-26 14:50:28,317 - INFO - find_best_layer - process layer: 85 - 125
+2019-08-26 14:50:28,318 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 14:50:28,323 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 125, nr_images 8100, and normalize settings: none
+2019-08-26 14:51:31,314 - INFO - find_best_layer - no normalization
+2019-08-26 14:51:36,733 - INFO - find_best_layer - score for layer 125 - layer_name block_13_project_BN, train_score: 1.0000, val_score: 0.8272
+2019-08-26 14:51:36,740 - INFO - find_best_layer - ===
+2019-08-26 14:51:36,743 - INFO - find_best_layer - process layer: 86 - 13
+2019-08-26 14:51:36,743 - INFO - find_best_layer - Memory usage: 38455276, diff: 0
+2019-08-26 14:51:36,747 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 13, nr_images 8100, and normalize settings: none
+2019-08-26 14:52:21,542 - INFO - find_best_layer - no normalization
+2019-08-26 15:06:15,231 - INFO - find_best_layer - score for layer 13 - layer_name block_1_pad, train_score: 1.0000, val_score: 0.4815
+2019-08-26 15:06:15,239 - INFO - find_best_layer - ===
+2019-08-26 15:06:15,239 - INFO - find_best_layer - process layer: 87 - 107
+2019-08-26 15:06:15,240 - INFO - find_best_layer - Memory usage: 39798688, diff: 1343412
+2019-08-26 15:06:15,244 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 107, nr_images 8100, and normalize settings: none
+2019-08-26 15:07:10,312 - INFO - find_best_layer - no normalization
+2019-08-26 15:07:21,694 - INFO - find_best_layer - score for layer 107 - layer_name block_11_add, train_score: 1.0000, val_score: 0.8765
+2019-08-26 15:07:21,702 - INFO - find_best_layer - ===
+2019-08-26 15:07:21,702 - INFO - find_best_layer - process layer: 88 - 115
+2019-08-26 15:07:21,702 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 15:07:21,706 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 115, nr_images 8100, and normalize settings: none
+2019-08-26 15:08:18,931 - INFO - find_best_layer - no normalization
+2019-08-26 15:08:30,064 - INFO - find_best_layer - score for layer 115 - layer_name block_12_project_BN, train_score: 1.0000, val_score: 0.7160
+2019-08-26 15:08:30,071 - INFO - find_best_layer - ===
+2019-08-26 15:08:30,071 - INFO - find_best_layer - process layer: 89 - 50
+2019-08-26 15:08:30,072 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 15:08:30,075 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 50, nr_images 8100, and normalize settings: none
+2019-08-26 15:09:25,700 - INFO - find_best_layer - no normalization
+2019-08-26 15:10:59,744 - INFO - find_best_layer - score for layer 50 - layer_name block_5_depthwise_BN, train_score: 1.0000, val_score: 0.9506
+2019-08-26 15:10:59,752 - INFO - find_best_layer - ===
+2019-08-26 15:10:59,752 - INFO - find_best_layer - process layer: 90 - 26
+2019-08-26 15:10:59,752 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 15:10:59,756 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 26, nr_images 8100, and normalize settings: none
+2019-08-26 15:11:42,752 - INFO - find_best_layer - no normalization
+2019-08-26 15:12:29,024 - INFO - find_best_layer - score for layer 26 - layer_name block_2_project_BN, train_score: 1.0000, val_score: 0.7407
+2019-08-26 15:12:29,031 - INFO - find_best_layer - ===
+2019-08-26 15:12:29,032 - INFO - find_best_layer - process layer: 91 - 42
+2019-08-26 15:12:29,032 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 15:12:29,036 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 42, nr_images 8100, and normalize settings: none
+2019-08-26 15:13:24,868 - INFO - find_best_layer - no normalization
+2019-08-26 15:14:52,603 - INFO - find_best_layer - score for layer 42 - layer_name block_4_depthwise_relu, train_score: 1.0000, val_score: 0.9877
+2019-08-26 15:14:52,611 - INFO - find_best_layer - ===
+2019-08-26 15:14:52,612 - INFO - find_best_layer - process layer: 92 - 39
+2019-08-26 15:14:52,612 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 15:14:52,616 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 39, nr_images 8100, and normalize settings: none
+2019-08-26 15:15:45,718 - INFO - find_best_layer - no normalization
+2019-08-26 15:17:13,925 - INFO - find_best_layer - score for layer 39 - layer_name block_4_expand_relu, train_score: 1.0000, val_score: 0.9136
+2019-08-26 15:17:13,933 - INFO - find_best_layer - ===
+2019-08-26 15:17:13,933 - INFO - find_best_layer - process layer: 93 - 142
+2019-08-26 15:17:13,933 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 15:17:13,937 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 142, nr_images 8100, and normalize settings: none
+2019-08-26 15:18:15,886 - INFO - find_best_layer - no normalization
+2019-08-26 15:18:21,230 - INFO - find_best_layer - score for layer 142 - layer_name block_15_project_BN, train_score: 1.0000, val_score: 0.6420
+2019-08-26 15:18:21,238 - INFO - find_best_layer - ===
+2019-08-26 15:18:21,238 - INFO - find_best_layer - process layer: 94 - 43
+2019-08-26 15:18:21,238 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 15:18:21,242 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 43, nr_images 8100, and normalize settings: none
+2019-08-26 15:19:06,244 - INFO - find_best_layer - no normalization
+2019-08-26 15:19:20,757 - INFO - find_best_layer - score for layer 43 - layer_name block_4_project, train_score: 1.0000, val_score: 0.9136
+2019-08-26 15:19:20,764 - INFO - find_best_layer - ===
+2019-08-26 15:19:20,765 - INFO - find_best_layer - process layer: 95 - 9
+2019-08-26 15:19:20,765 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 15:19:20,768 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 9, nr_images 8100, and normalize settings: none
+2019-08-26 15:19:27,252 - INFO - find_best_layer - no normalization
+2019-08-26 15:21:39,984 - INFO - find_best_layer - score for layer 9 - layer_name expanded_conv_project_BN, train_score: 1.0000, val_score: 0.4074
+2019-08-26 15:21:39,992 - INFO - find_best_layer - ===
+2019-08-26 15:21:39,992 - INFO - find_best_layer - process layer: 96 - 118
+2019-08-26 15:21:39,992 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 15:21:39,996 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 118, nr_images 8100, and normalize settings: none
+2019-08-26 15:22:50,319 - INFO - find_best_layer - no normalization
+2019-08-26 15:24:00,611 - INFO - find_best_layer - score for layer 118 - layer_name block_13_expand_BN, train_score: 1.0000, val_score: 0.8889
+2019-08-26 15:24:00,619 - INFO - find_best_layer - ===
+2019-08-26 15:24:00,619 - INFO - find_best_layer - process layer: 97 - 138
+2019-08-26 15:24:00,619 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 15:24:00,623 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 138, nr_images 8100, and normalize settings: none
+2019-08-26 15:25:06,233 - INFO - find_best_layer - no normalization
+2019-08-26 15:25:35,297 - INFO - find_best_layer - score for layer 138 - layer_name block_15_depthwise, train_score: 1.0000, val_score: 0.6914
+2019-08-26 15:25:35,306 - INFO - find_best_layer - ===
+2019-08-26 15:25:35,306 - INFO - find_best_layer - process layer: 98 - 90
+2019-08-26 15:25:35,306 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 15:25:35,310 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 90, nr_images 8100, and normalize settings: none
+2019-08-26 15:26:26,562 - INFO - find_best_layer - no normalization
+2019-08-26 15:26:34,580 - INFO - find_best_layer - score for layer 90 - layer_name block_9_add, train_score: 1.0000, val_score: 0.9506
+2019-08-26 15:26:34,588 - INFO - find_best_layer - ===
+2019-08-26 15:26:34,588 - INFO - find_best_layer - process layer: 99 - 2
+2019-08-26 15:26:34,588 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 15:26:34,592 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 2, nr_images 8100, and normalize settings: none
+2019-08-26 15:26:39,856 - INFO - find_best_layer - no normalization
+2019-08-26 15:31:25,139 - INFO - find_best_layer - score for layer 2 - layer_name Conv1, train_score: 1.0000, val_score: 0.4691
+2019-08-26 15:31:25,148 - INFO - find_best_layer - ===
+2019-08-26 15:31:25,148 - INFO - find_best_layer - process layer: 100 - 149
+2019-08-26 15:31:25,148 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 15:31:25,152 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 149, nr_images 8100, and normalize settings: none
+2019-08-26 15:32:28,004 - INFO - find_best_layer - no normalization
+2019-08-26 15:32:55,481 - INFO - find_best_layer - score for layer 149 - layer_name block_16_depthwise_relu, train_score: 0.9995, val_score: 0.6790
+2019-08-26 15:32:55,488 - INFO - find_best_layer - ===
+2019-08-26 15:32:55,488 - INFO - find_best_layer - process layer: 101 - 66
+2019-08-26 15:32:55,488 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 15:32:55,492 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 66, nr_images 8100, and normalize settings: none
+2019-08-26 15:33:55,580 - INFO - find_best_layer - no normalization
+2019-08-26 15:34:41,488 - INFO - find_best_layer - score for layer 66 - layer_name block_7_expand_relu, train_score: 1.0000, val_score: 1.0000
+2019-08-26 15:34:41,495 - INFO - find_best_layer - ===
+2019-08-26 15:34:41,495 - INFO - find_best_layer - process layer: 102 - 23
+2019-08-26 15:34:41,495 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 15:34:41,499 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 23, nr_images 8100, and normalize settings: none
+2019-08-26 15:35:21,980 - INFO - find_best_layer - no normalization
+2019-08-26 15:40:39,503 - INFO - find_best_layer - score for layer 23 - layer_name block_2_depthwise_BN, train_score: 1.0000, val_score: 0.7407
+2019-08-26 15:40:39,513 - INFO - find_best_layer - ===
+2019-08-26 15:40:39,513 - INFO - find_best_layer - process layer: 103 - 86
+2019-08-26 15:40:39,513 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 15:40:39,518 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 86, nr_images 8100, and normalize settings: none
+2019-08-26 15:41:41,278 - INFO - find_best_layer - no normalization
+2019-08-26 15:42:28,519 - INFO - find_best_layer - score for layer 86 - layer_name block_9_depthwise_BN, train_score: 1.0000, val_score: 0.9506
+2019-08-26 15:42:28,527 - INFO - find_best_layer - ===
+2019-08-26 15:42:28,527 - INFO - find_best_layer - process layer: 104 - 47
+2019-08-26 15:42:28,527 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 15:42:28,532 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 47, nr_images 8100, and normalize settings: none
+2019-08-26 15:43:19,726 - INFO - find_best_layer - no normalization
+2019-08-26 15:44:56,298 - INFO - find_best_layer - score for layer 47 - layer_name block_5_expand_BN, train_score: 1.0000, val_score: 0.9136
+2019-08-26 15:44:56,306 - INFO - find_best_layer - ===
+2019-08-26 15:44:56,306 - INFO - find_best_layer - process layer: 105 - 120
+2019-08-26 15:44:56,306 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 15:44:56,310 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 120, nr_images 8100, and normalize settings: none
+2019-08-26 15:46:11,414 - INFO - find_best_layer - no normalization
+2019-08-26 15:47:44,902 - INFO - find_best_layer - score for layer 120 - layer_name block_13_pad, train_score: 1.0000, val_score: 0.8025
+2019-08-26 15:47:44,909 - INFO - find_best_layer - ===
+2019-08-26 15:47:44,910 - INFO - find_best_layer - process layer: 106 - 131
+2019-08-26 15:47:44,910 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 15:47:44,914 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 131, nr_images 8100, and normalize settings: none
+2019-08-26 15:48:43,579 - INFO - find_best_layer - no normalization
+2019-08-26 15:49:12,251 - INFO - find_best_layer - score for layer 131 - layer_name block_14_depthwise_relu, train_score: 1.0000, val_score: 0.7037
+2019-08-26 15:49:12,258 - INFO - find_best_layer - ===
+2019-08-26 15:49:12,258 - INFO - find_best_layer - process layer: 107 - 129
+2019-08-26 15:49:12,258 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 15:49:12,262 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 129, nr_images 8100, and normalize settings: none
+2019-08-26 15:50:12,102 - INFO - find_best_layer - no normalization
+2019-08-26 15:50:40,957 - INFO - find_best_layer - score for layer 129 - layer_name block_14_depthwise, train_score: 1.0000, val_score: 0.8395
+2019-08-26 15:50:40,965 - INFO - find_best_layer - ===
+2019-08-26 15:50:40,966 - INFO - find_best_layer - process layer: 108 - 104
+2019-08-26 15:50:40,966 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 15:50:40,970 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 104, nr_images 8100, and normalize settings: none
+2019-08-26 15:51:47,778 - INFO - find_best_layer - no normalization
+2019-08-26 15:52:58,024 - INFO - find_best_layer - score for layer 104 - layer_name block_11_depthwise_relu, train_score: 1.0000, val_score: 0.8148
+2019-08-26 15:52:58,032 - INFO - find_best_layer - ===
+2019-08-26 15:52:58,032 - INFO - find_best_layer - process layer: 109 - 136
+2019-08-26 15:52:58,032 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 15:52:58,036 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 136, nr_images 8100, and normalize settings: none
+2019-08-26 15:53:59,809 - INFO - find_best_layer - no normalization
+2019-08-26 15:54:28,226 - INFO - find_best_layer - score for layer 136 - layer_name block_15_expand_BN, train_score: 1.0000, val_score: 0.7407
+2019-08-26 15:54:28,233 - INFO - find_best_layer - ===
+2019-08-26 15:54:28,233 - INFO - find_best_layer - process layer: 110 - 58
+2019-08-26 15:54:28,234 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 15:54:28,237 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 58, nr_images 8100, and normalize settings: none
+2019-08-26 15:55:27,080 - INFO - find_best_layer - no normalization
+2019-08-26 15:57:19,035 - INFO - find_best_layer - score for layer 58 - layer_name block_6_pad, train_score: 1.0000, val_score: 0.9753
+2019-08-26 15:57:19,043 - INFO - find_best_layer - ===
+2019-08-26 15:57:19,043 - INFO - find_best_layer - process layer: 111 - 54
+2019-08-26 15:57:19,043 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 15:57:19,047 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 54, nr_images 8100, and normalize settings: none
+2019-08-26 15:58:03,832 - INFO - find_best_layer - no normalization
+2019-08-26 15:58:18,527 - INFO - find_best_layer - score for layer 54 - layer_name block_5_add, train_score: 1.0000, val_score: 0.9877
+2019-08-26 15:58:18,535 - INFO - find_best_layer - ===
+2019-08-26 15:58:18,535 - INFO - find_best_layer - process layer: 112 - 127
+2019-08-26 15:58:18,535 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 15:58:18,539 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 127, nr_images 8100, and normalize settings: none
+2019-08-26 15:59:18,425 - INFO - find_best_layer - no normalization
+2019-08-26 15:59:46,803 - INFO - find_best_layer - score for layer 127 - layer_name block_14_expand_BN, train_score: 1.0000, val_score: 0.7654
+2019-08-26 15:59:46,811 - INFO - find_best_layer - ===
+2019-08-26 15:59:46,811 - INFO - find_best_layer - process layer: 113 - 106
+2019-08-26 15:59:46,811 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 15:59:46,815 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 106, nr_images 8100, and normalize settings: none
+2019-08-26 16:00:40,065 - INFO - find_best_layer - no normalization
+2019-08-26 16:00:51,074 - INFO - find_best_layer - score for layer 106 - layer_name block_11_project_BN, train_score: 1.0000, val_score: 0.8148
+2019-08-26 16:00:51,081 - INFO - find_best_layer - ===
+2019-08-26 16:00:51,081 - INFO - find_best_layer - process layer: 114 - 25
+2019-08-26 16:00:51,081 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:00:51,085 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 25, nr_images 8100, and normalize settings: none
+2019-08-26 16:01:33,722 - INFO - find_best_layer - no normalization
+2019-08-26 16:02:21,873 - INFO - find_best_layer - score for layer 25 - layer_name block_2_project, train_score: 1.0000, val_score: 0.6049
+2019-08-26 16:02:21,881 - INFO - find_best_layer - ===
+2019-08-26 16:02:21,881 - INFO - find_best_layer - process layer: 115 - 18
+2019-08-26 16:02:21,881 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:02:21,885 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 18, nr_images 8100, and normalize settings: none
+2019-08-26 16:02:58,639 - INFO - find_best_layer - no normalization
+2019-08-26 16:03:46,119 - INFO - find_best_layer - score for layer 18 - layer_name block_1_project_BN, train_score: 1.0000, val_score: 0.8272
+2019-08-26 16:03:46,128 - INFO - find_best_layer - ===
+2019-08-26 16:03:46,128 - INFO - find_best_layer - process layer: 116 - 67
+2019-08-26 16:03:46,128 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:03:46,132 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 67, nr_images 8100, and normalize settings: none
+2019-08-26 16:04:48,642 - INFO - find_best_layer - no normalization
+2019-08-26 16:05:35,964 - INFO - find_best_layer - score for layer 67 - layer_name block_7_depthwise, train_score: 1.0000, val_score: 0.9630
+2019-08-26 16:05:35,972 - INFO - find_best_layer - ===
+2019-08-26 16:05:35,972 - INFO - find_best_layer - process layer: 117 - 33
+2019-08-26 16:05:35,972 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:05:35,976 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 33, nr_images 8100, and normalize settings: none
+2019-08-26 16:06:24,753 - INFO - find_best_layer - no normalization
+2019-08-26 16:07:36,978 - INFO - find_best_layer - score for layer 33 - layer_name block_3_depthwise_BN, train_score: 1.0000, val_score: 0.8889
+2019-08-26 16:07:36,986 - INFO - find_best_layer - ===
+2019-08-26 16:07:36,986 - INFO - find_best_layer - process layer: 118 - 87
+2019-08-26 16:07:36,986 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:07:36,990 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 87, nr_images 8100, and normalize settings: none
+2019-08-26 16:08:41,827 - INFO - find_best_layer - no normalization
+2019-08-26 16:09:31,260 - INFO - find_best_layer - score for layer 87 - layer_name block_9_depthwise_relu, train_score: 1.0000, val_score: 0.9136
+2019-08-26 16:09:31,268 - INFO - find_best_layer - ===
+2019-08-26 16:09:31,268 - INFO - find_best_layer - process layer: 119 - 32
+2019-08-26 16:09:31,268 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:09:31,273 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 32, nr_images 8100, and normalize settings: none
+2019-08-26 16:10:24,485 - INFO - find_best_layer - no normalization
+2019-08-26 16:11:37,372 - INFO - find_best_layer - score for layer 32 - layer_name block_3_depthwise, train_score: 1.0000, val_score: 0.9506
+2019-08-26 16:11:37,380 - INFO - find_best_layer - ===
+2019-08-26 16:11:37,380 - INFO - find_best_layer - process layer: 120 - 85
+2019-08-26 16:11:37,381 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:11:37,385 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 85, nr_images 8100, and normalize settings: none
+2019-08-26 16:12:42,544 - INFO - find_best_layer - no normalization
+2019-08-26 16:13:29,587 - INFO - find_best_layer - score for layer 85 - layer_name block_9_depthwise, train_score: 1.0000, val_score: 0.9630
+2019-08-26 16:13:29,594 - INFO - find_best_layer - ===
+2019-08-26 16:13:29,595 - INFO - find_best_layer - process layer: 121 - 63
+2019-08-26 16:13:29,595 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:13:29,598 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 63, nr_images 8100, and normalize settings: none
+2019-08-26 16:14:17,597 - INFO - find_best_layer - no normalization
+2019-08-26 16:14:25,676 - INFO - find_best_layer - score for layer 63 - layer_name block_6_project_BN, train_score: 1.0000, val_score: 0.9753
+2019-08-26 16:14:25,683 - INFO - find_best_layer - ===
+2019-08-26 16:14:25,684 - INFO - find_best_layer - process layer: 122 - 116
+2019-08-26 16:14:25,684 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:14:25,688 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 116, nr_images 8100, and normalize settings: none
+2019-08-26 16:15:20,941 - INFO - find_best_layer - no normalization
+2019-08-26 16:15:31,985 - INFO - find_best_layer - score for layer 116 - layer_name block_12_add, train_score: 1.0000, val_score: 0.8889
+2019-08-26 16:15:31,992 - INFO - find_best_layer - ===
+2019-08-26 16:15:31,992 - INFO - find_best_layer - process layer: 123 - 146
+2019-08-26 16:15:31,992 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:15:31,996 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 146, nr_images 8100, and normalize settings: none
+2019-08-26 16:16:36,016 - INFO - find_best_layer - no normalization
+2019-08-26 16:17:03,925 - INFO - find_best_layer - score for layer 146 - layer_name block_16_expand_relu, train_score: 1.0000, val_score: 0.7284
+2019-08-26 16:17:03,933 - INFO - find_best_layer - ===
+2019-08-26 16:17:03,933 - INFO - find_best_layer - process layer: 124 - 60
+2019-08-26 16:17:03,933 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:17:03,937 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 60, nr_images 8100, and normalize settings: none
+2019-08-26 16:17:53,755 - INFO - find_best_layer - no normalization
+2019-08-26 16:18:15,938 - INFO - find_best_layer - score for layer 60 - layer_name block_6_depthwise_BN, train_score: 1.0000, val_score: 0.9506
+2019-08-26 16:18:15,946 - INFO - find_best_layer - ===
+2019-08-26 16:18:15,946 - INFO - find_best_layer - process layer: 125 - 134
+2019-08-26 16:18:15,946 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:18:15,950 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 134, nr_images 8100, and normalize settings: none
+2019-08-26 16:19:15,500 - INFO - find_best_layer - no normalization
+2019-08-26 16:19:21,321 - INFO - find_best_layer - score for layer 134 - layer_name block_14_add, train_score: 1.0000, val_score: 0.8025
+2019-08-26 16:19:21,329 - INFO - find_best_layer - ===
+2019-08-26 16:19:21,339 - INFO - find_best_layer - process layer: 126 - 95
+2019-08-26 16:19:21,340 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:19:21,344 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 95, nr_images 8100, and normalize settings: none
+2019-08-26 16:20:27,630 - INFO - find_best_layer - no normalization
+2019-08-26 16:21:14,171 - INFO - find_best_layer - score for layer 95 - layer_name block_10_depthwise_BN, train_score: 1.0000, val_score: 0.9506
+2019-08-26 16:21:14,179 - INFO - find_best_layer - ===
+2019-08-26 16:21:14,179 - INFO - find_best_layer - process layer: 127 - 53
+2019-08-26 16:21:14,179 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:21:14,183 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 53, nr_images 8100, and normalize settings: none
+2019-08-26 16:21:59,919 - INFO - find_best_layer - no normalization
+2019-08-26 16:22:14,263 - INFO - find_best_layer - score for layer 53 - layer_name block_5_project_BN, train_score: 1.0000, val_score: 0.8889
+2019-08-26 16:22:14,272 - INFO - find_best_layer - ===
+2019-08-26 16:22:14,272 - INFO - find_best_layer - process layer: 128 - 137
+2019-08-26 16:22:14,272 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:22:14,276 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 137, nr_images 8100, and normalize settings: none
+2019-08-26 16:23:16,586 - INFO - find_best_layer - no normalization
+2019-08-26 16:23:46,120 - INFO - find_best_layer - score for layer 137 - layer_name block_15_expand_relu, train_score: 1.0000, val_score: 0.6543
+2019-08-26 16:23:46,128 - INFO - find_best_layer - ===
+2019-08-26 16:23:46,128 - INFO - find_best_layer - process layer: 129 - 93
+2019-08-26 16:23:46,128 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:23:46,132 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 93, nr_images 8100, and normalize settings: none
+2019-08-26 16:24:49,970 - INFO - find_best_layer - no normalization
+2019-08-26 16:25:39,813 - INFO - find_best_layer - score for layer 93 - layer_name block_10_expand_relu, train_score: 1.0000, val_score: 0.9753
+2019-08-26 16:25:39,821 - INFO - find_best_layer - ===
+2019-08-26 16:25:39,821 - INFO - find_best_layer - process layer: 130 - 24
+2019-08-26 16:25:39,821 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:25:39,825 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 24, nr_images 8100, and normalize settings: none
+2019-08-26 16:26:22,651 - INFO - find_best_layer - no normalization
+2019-08-26 16:31:42,866 - INFO - find_best_layer - score for layer 24 - layer_name block_2_depthwise_relu, train_score: 1.0000, val_score: 0.7407
+2019-08-26 16:31:42,875 - INFO - find_best_layer - ===
+2019-08-26 16:31:42,876 - INFO - find_best_layer - process layer: 131 - 37
+2019-08-26 16:31:42,876 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:31:42,880 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 37, nr_images 8100, and normalize settings: none
+2019-08-26 16:32:35,248 - INFO - find_best_layer - no normalization
+2019-08-26 16:34:17,062 - INFO - find_best_layer - score for layer 37 - layer_name block_4_expand, train_score: 1.0000, val_score: 0.9136
+2019-08-26 16:34:17,070 - INFO - find_best_layer - ===
+2019-08-26 16:34:17,070 - INFO - find_best_layer - process layer: 132 - 124
+2019-08-26 16:34:17,070 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:34:17,074 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 124, nr_images 8100, and normalize settings: none
+2019-08-26 16:35:16,312 - INFO - find_best_layer - no normalization
+2019-08-26 16:35:21,607 - INFO - find_best_layer - score for layer 124 - layer_name block_13_project, train_score: 0.9998, val_score: 0.8148
+2019-08-26 16:35:21,615 - INFO - find_best_layer - ===
+2019-08-26 16:35:21,615 - INFO - find_best_layer - process layer: 133 - 99
+2019-08-26 16:35:21,615 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:35:21,619 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 99, nr_images 8100, and normalize settings: none
+2019-08-26 16:36:29,560 - INFO - find_best_layer - no normalization
+2019-08-26 16:37:41,238 - INFO - find_best_layer - score for layer 99 - layer_name block_11_expand, train_score: 1.0000, val_score: 0.9012
+2019-08-26 16:37:41,247 - INFO - find_best_layer - ===
+2019-08-26 16:37:41,247 - INFO - find_best_layer - process layer: 134 - 6
+2019-08-26 16:37:41,247 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:37:41,252 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 6, nr_images 8100, and normalize settings: none
+2019-08-26 16:37:48,989 - INFO - find_best_layer - no normalization
+2019-08-26 16:42:38,111 - INFO - find_best_layer - score for layer 6 - layer_name expanded_conv_depthwise_BN, train_score: 1.0000, val_score: 0.2469
+2019-08-26 16:42:38,120 - INFO - find_best_layer - ===
+2019-08-26 16:42:38,120 - INFO - find_best_layer - process layer: 135 - 117
+2019-08-26 16:42:38,120 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:42:38,125 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 117, nr_images 8100, and normalize settings: none
+2019-08-26 16:43:48,776 - INFO - find_best_layer - no normalization
+2019-08-26 16:45:00,100 - INFO - find_best_layer - score for layer 117 - layer_name block_13_expand, train_score: 1.0000, val_score: 0.8519
+2019-08-26 16:45:00,108 - INFO - find_best_layer - ===
+2019-08-26 16:45:00,108 - INFO - find_best_layer - process layer: 136 - 46
+2019-08-26 16:45:00,109 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:45:00,112 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 46, nr_images 8100, and normalize settings: none
+2019-08-26 16:45:49,259 - INFO - find_best_layer - no normalization
+2019-08-26 16:47:27,137 - INFO - find_best_layer - score for layer 46 - layer_name block_5_expand, train_score: 1.0000, val_score: 0.8889
+2019-08-26 16:47:27,145 - INFO - find_best_layer - ===
+2019-08-26 16:47:27,145 - INFO - find_best_layer - process layer: 137 - 17
+2019-08-26 16:47:27,145 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:47:27,149 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 17, nr_images 8100, and normalize settings: none
+2019-08-26 16:48:05,416 - INFO - find_best_layer - no normalization
+2019-08-26 16:48:54,027 - INFO - find_best_layer - score for layer 17 - layer_name block_1_project, train_score: 1.0000, val_score: 0.7778
+2019-08-26 16:48:54,035 - INFO - find_best_layer - ===
+2019-08-26 16:48:54,035 - INFO - find_best_layer - process layer: 138 - 49
+2019-08-26 16:48:54,035 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:48:54,039 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 49, nr_images 8100, and normalize settings: none
+2019-08-26 16:49:47,390 - INFO - find_best_layer - no normalization
+2019-08-26 16:51:27,361 - INFO - find_best_layer - score for layer 49 - layer_name block_5_depthwise, train_score: 1.0000, val_score: 0.9630
+2019-08-26 16:51:27,369 - INFO - find_best_layer - ===
+2019-08-26 16:51:27,369 - INFO - find_best_layer - process layer: 139 - 35
+2019-08-26 16:51:27,369 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:51:27,373 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 35, nr_images 8100, and normalize settings: none
+2019-08-26 16:52:09,222 - INFO - find_best_layer - no normalization
+2019-08-26 16:52:23,934 - INFO - find_best_layer - score for layer 35 - layer_name block_3_project, train_score: 1.0000, val_score: 0.9630
+2019-08-26 16:52:23,943 - INFO - find_best_layer - ===
+2019-08-26 16:52:23,943 - INFO - find_best_layer - process layer: 140 - 4
+2019-08-26 16:52:23,943 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:52:23,947 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 4, nr_images 8100, and normalize settings: none
+2019-08-26 16:52:32,250 - INFO - find_best_layer - no normalization
+2019-08-26 16:57:31,178 - INFO - find_best_layer - score for layer 4 - layer_name Conv1_relu, train_score: 0.9727, val_score: 0.2222
+2019-08-26 16:57:31,187 - INFO - find_best_layer - ===
+2019-08-26 16:57:31,187 - INFO - find_best_layer - process layer: 141 - 48
+2019-08-26 16:57:31,187 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:57:31,191 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 48, nr_images 8100, and normalize settings: none
+2019-08-26 16:58:22,119 - INFO - find_best_layer - no normalization
+2019-08-26 16:59:59,685 - INFO - find_best_layer - score for layer 48 - layer_name block_5_expand_relu, train_score: 1.0000, val_score: 0.9383
+2019-08-26 16:59:59,693 - INFO - find_best_layer - ===
+2019-08-26 16:59:59,693 - INFO - find_best_layer - process layer: 142 - 61
+2019-08-26 16:59:59,693 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 16:59:59,697 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 61, nr_images 8100, and normalize settings: none
+2019-08-26 17:00:46,997 - INFO - find_best_layer - no normalization
+2019-08-26 17:01:10,464 - INFO - find_best_layer - score for layer 61 - layer_name block_6_depthwise_relu, train_score: 1.0000, val_score: 0.9630
+2019-08-26 17:01:10,472 - INFO - find_best_layer - ===
+2019-08-26 17:01:10,472 - INFO - find_best_layer - process layer: 143 - 111
+2019-08-26 17:01:10,472 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 17:01:10,476 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 111, nr_images 8100, and normalize settings: none
+2019-08-26 17:02:18,808 - INFO - find_best_layer - no normalization
+2019-08-26 17:03:31,205 - INFO - find_best_layer - score for layer 111 - layer_name block_12_depthwise, train_score: 1.0000, val_score: 0.8272
+2019-08-26 17:03:31,213 - INFO - find_best_layer - ===
+2019-08-26 17:03:31,213 - INFO - find_best_layer - process layer: 144 - 28
+2019-08-26 17:03:31,213 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 17:03:31,217 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 28, nr_images 8100, and normalize settings: none
+2019-08-26 17:04:14,558 - INFO - find_best_layer - no normalization
+2019-08-26 17:09:31,224 - INFO - find_best_layer - score for layer 28 - layer_name block_3_expand, train_score: 1.0000, val_score: 0.7778
+2019-08-26 17:09:31,232 - INFO - find_best_layer - ===
+2019-08-26 17:09:31,232 - INFO - find_best_layer - process layer: 145 - 97
+2019-08-26 17:09:31,232 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 17:09:31,236 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 97, nr_images 8100, and normalize settings: none
+2019-08-26 17:10:23,621 - INFO - find_best_layer - no normalization
+2019-08-26 17:10:34,850 - INFO - find_best_layer - score for layer 97 - layer_name block_10_project, train_score: 1.0000, val_score: 0.9136
+2019-08-26 17:10:34,858 - INFO - find_best_layer - ===
+2019-08-26 17:10:34,858 - INFO - find_best_layer - process layer: 146 - 30
+2019-08-26 17:10:34,859 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 17:10:34,862 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 30, nr_images 8100, and normalize settings: none
+2019-08-26 17:11:21,154 - INFO - find_best_layer - no normalization
+2019-08-26 17:16:37,857 - INFO - find_best_layer - score for layer 30 - layer_name block_3_expand_relu, train_score: 1.0000, val_score: 0.8148
+2019-08-26 17:16:37,868 - INFO - find_best_layer - ===
+2019-08-26 17:16:37,868 - INFO - find_best_layer - process layer: 147 - 21
+2019-08-26 17:16:37,868 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 17:16:37,873 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 21, nr_images 8100, and normalize settings: none
+2019-08-26 17:17:18,398 - INFO - find_best_layer - no normalization
+2019-08-26 17:22:31,954 - INFO - find_best_layer - score for layer 21 - layer_name block_2_expand_relu, train_score: 1.0000, val_score: 0.8148
+2019-08-26 17:22:31,963 - INFO - find_best_layer - ===
+2019-08-26 17:22:31,963 - INFO - find_best_layer - process layer: 148 - 150
+2019-08-26 17:22:31,963 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 17:22:31,967 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 150, nr_images 8100, and normalize settings: none
+2019-08-26 17:23:36,716 - INFO - find_best_layer - no normalization
+2019-08-26 17:23:46,234 - INFO - find_best_layer - score for layer 150 - layer_name block_16_project, train_score: 0.9996, val_score: 0.7654
+2019-08-26 17:23:46,241 - INFO - find_best_layer - ===
+2019-08-26 17:23:46,241 - INFO - find_best_layer - process layer: 149 - 27
+2019-08-26 17:23:46,241 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 17:23:46,245 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 27, nr_images 8100, and normalize settings: none
+2019-08-26 17:24:29,784 - INFO - find_best_layer - no normalization
+2019-08-26 17:25:15,944 - INFO - find_best_layer - score for layer 27 - layer_name block_2_add, train_score: 1.0000, val_score: 0.8025
+2019-08-26 17:25:15,953 - INFO - find_best_layer - ===
+2019-08-26 17:25:15,953 - INFO - find_best_layer - process layer: 150 - 8
+2019-08-26 17:25:15,953 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 17:25:15,957 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 8, nr_images 8100, and normalize settings: none
+2019-08-26 17:25:23,315 - INFO - find_best_layer - no normalization
+2019-08-26 17:27:48,325 - INFO - find_best_layer - score for layer 8 - layer_name expanded_conv_project, train_score: 1.0000, val_score: 0.3086
+2019-08-26 17:27:48,333 - INFO - find_best_layer - ===
+2019-08-26 17:27:48,333 - INFO - find_best_layer - process layer: 151 - 51
+2019-08-26 17:27:48,333 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 17:27:48,337 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 51, nr_images 8100, and normalize settings: none
+2019-08-26 17:28:39,582 - INFO - find_best_layer - no normalization
+2019-08-26 17:30:15,386 - INFO - find_best_layer - score for layer 51 - layer_name block_5_depthwise_relu, train_score: 1.0000, val_score: 0.9630
+2019-08-26 17:30:15,394 - INFO - find_best_layer - ===
+2019-08-26 17:30:15,394 - INFO - find_best_layer - process layer: 152 - 109
+2019-08-26 17:30:15,395 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 17:30:15,399 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 109, nr_images 8100, and normalize settings: none
+2019-08-26 17:31:25,039 - INFO - find_best_layer - no normalization
+2019-08-26 17:32:36,258 - INFO - find_best_layer - score for layer 109 - layer_name block_12_expand_BN, train_score: 1.0000, val_score: 0.8395
+2019-08-26 17:32:36,267 - INFO - find_best_layer - ===
+2019-08-26 17:32:36,267 - INFO - find_best_layer - process layer: 153 - 38
+2019-08-26 17:32:36,268 - INFO - find_best_layer - Memory usage: 39798688, diff: 0
+2019-08-26 17:32:36,272 - INFO - find_best_layer - 0 previous results for model mobilenet_v2, layer 38, nr_images 8100, and normalize settings: none
+2019-08-26 17:33:27,727 - INFO - find_best_layer - no normalization
+2019-08-26 17:35:08,380 - INFO - find_best_layer - score for layer 38 - layer_name block_4_expand_BN, train_score: 1.0000, val_score: 0.9383
