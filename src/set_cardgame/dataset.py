@@ -84,30 +84,44 @@ def upsample_dataset(images_path, nr_images, aug_params={}, target_size=(96, 128
     return X[0:nr_images], get_labels_from_iterator(directory_iterator, y[0:nr_images])
 
 
+def get_card_data(df_meta, card_id):
+    return df_meta.iloc[int(card_id)]
+
+
+def get_feature_codes(df_meta, predictions):
+    feature_codes = ['color_code', 'shape_code', 'fill_code', 'number_code']
+    return np.array(list(map(lambda x: get_card_data(df_meta, x)[feature_codes], predictions)))
+
+
 def load_metadata():
     # dataframe with info on each card and variant
     df_meta = pd.read_csv(csv_path)
     
-    # create category codes for features
-    categories = {
+    # drop columns we don't need here
+    df_meta.drop(labels=['filename', 'variant'], axis='columns', inplace=True)
+        
+    # get unique card ids
+    df_meta.drop_duplicates(inplace=True)
+
+    # set card_id as index
+    df_meta.set_index('card_id', drop=True, inplace=True)
+
+    # define features and values in desired sortorder
+    features = {
         'color': ['red', 'green', 'purple'],
         'shape': ['square', 'squiggle', 'round'],
         'fill':  ['solid', 'open', 'dotted'],
         'number': ['one', 'two', 'three'],
     }
-        
-    for feature in ['color', 'shape', 'fill', 'number']:
-        df_meta[feature] = pd.Categorical(df_meta[feature], ordered=True, categories=categories[feature])
+
+    # create a label for the card
+    df_meta['label'] = df_meta[features.keys()].apply(lambda x: ' '.join(x), axis='columns')
+
+    # create category codes for features
+    for feature, feature_values in features.items():
+        df_meta[feature] = pd.Categorical(df_meta[feature], ordered=True, categories=feature_values)
         df_meta[f'{feature}_code'] = df_meta[feature].cat.codes
-
-    # create dataframe with dummie variables for each card
-    df_meta_card = df_meta.drop_duplicates(subset='card_id')
-    df_meta_card.set_index('card_id', inplace=True)
-    df_meta_card = df_meta_card.drop(columns=['filename', 'variant'])
-
-    # create dummie variables
-    df_meta_dummies = pd.get_dummies(df_meta_card)
-    return df_meta, df_meta_dummies
+    return df_meta
     
 
 def load_dataset(target_size=(96, 128), nr_images=810, shuffle=True, output_path=None, preprocessing_func=None):

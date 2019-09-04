@@ -68,8 +68,7 @@ def get_triplet_indices(collection, triplet):
     """
     indices = []
     for card in triplet:
-        #indices.append(int(np.where(np.all(collection==card, axis=1))[0]))
-        indices.append(np.where(np.all(collection==card, axis=1))[0])
+        indices.append(int(np.where(np.all(collection==card, axis=1))[0]))
     return indices
 
 
