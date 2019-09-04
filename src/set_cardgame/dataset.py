@@ -87,6 +87,19 @@ def upsample_dataset(images_path, nr_images, aug_params={}, target_size=(96, 128
 def load_metadata():
     # dataframe with info on each card and variant
     df_meta = pd.read_csv(csv_path)
+    
+    # create category codes for features
+    categories = {
+        'color': ['red', 'green', 'purple'],
+        'shape': ['square', 'squiggle', 'round'],
+        'fill':  ['solid', 'open', 'dotted'],
+        'number': ['one', 'two', 'three'],
+    }
+        
+    for feature in ['color', 'shape', 'fill', 'number']:
+        df_meta[feature] = pd.Categorical(df_meta[feature], ordered=True, categories=categories[feature])
+        df_meta[f'{feature}_code'] = df_meta[feature].cat.codes
+
     # create dataframe with dummie variables for each card
     df_meta_card = df_meta.drop_duplicates(subset='card_id')
     df_meta_card.set_index('card_id', inplace=True)
@@ -97,7 +110,7 @@ def load_metadata():
     return df_meta, df_meta_dummies
     
 
-def load_dataset(target_size=(96, 128), nr_images=810, shuffle=True, output_path=None):
+def load_dataset(target_size=(96, 128), nr_images=810, shuffle=True, output_path=None, preprocessing_func=None):
     
     # augmentation parameters for training data
     aug_params = {
@@ -111,9 +124,11 @@ def load_dataset(target_size=(96, 128), nr_images=810, shuffle=True, output_path
     # get training data
     X_train, y_train = upsample_dataset(dataset_path / "train", nr_images=nr_images, aug_params=aug_params, target_size=target_size, batch_size=81, shuffle=shuffle, output_path=output_path)
 
-
     # get validation data
     X_val, y_val = upsample_dataset(dataset_path / "validation", nr_images=81, aug_params={}, target_size=target_size, batch_size=81, shuffle=shuffle, output_path=None)
-    
+
+    if preprocessing_func is not None:
+        X_train = preprocessing_func(X_train)
+        X_val = preprocessing_func(X_val)
 
     return X_train, y_train, X_val, y_val
