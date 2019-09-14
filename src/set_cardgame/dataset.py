@@ -88,9 +88,13 @@ def get_card_data(df_meta, card_id):
     return df_meta.iloc[int(card_id)]
 
 
+def get_image_path(df_meta, card_id, train_val="validation"):
+    return dataset_path / train_val / str(card_id) / df_meta.iloc[int(card_id)].get('filename')
+
+
 def get_feature_codes(df_meta, predictions):
     feature_codes = ['color_code', 'shape_code', 'fill_code', 'number_code']
-    return np.array(list(map(lambda x: get_card_data(df_meta, x)[feature_codes], predictions)))
+    return np.array(list(map(lambda x: get_card_data(df_meta, x)[feature_codes], predictions))).astype(int)
 
 
 def load_metadata():
@@ -98,10 +102,10 @@ def load_metadata():
     df_meta = pd.read_csv(csv_path)
     
     # drop columns we don't need here
-    df_meta.drop(labels=['filename', 'variant'], axis='columns', inplace=True)
+    df_meta.drop(labels=['variant'], axis='columns', inplace=True)
         
     # get unique card ids
-    df_meta.drop_duplicates(inplace=True)
+    df_meta.drop_duplicates(inplace=True, subset=['card_id'])
 
     # set card_id as index
     df_meta.set_index('card_id', drop=True, inplace=True)
