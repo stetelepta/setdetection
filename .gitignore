@@ -1,5 +1,12 @@
 # skip data files
 src/set_cardgame/data
+
+# output folder
+output/
+
+# test images
+test_images*/
+
 # OSX desktop files
 .DS_Store
 
