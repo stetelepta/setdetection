@@ -1,6 +1,7 @@
 import numpy as np
 import logging
 import cv2
+import matplotlib.pyplot as plt
 
 
 def to_rgb3(im):
