@@ -97,6 +97,10 @@ def get_feature_codes(df_meta, predictions):
     return np.array(list(map(lambda x: get_card_data(df_meta, x)[feature_codes], predictions))).astype(int)
 
 
+def get_feature_labels(df_meta, predictions):
+    return list(map(lambda x: get_card_data(df_meta, x)['label'], predictions))
+
+
 def load_metadata():
     # dataframe with info on each card and variant
     df_meta = pd.read_csv(csv_path)

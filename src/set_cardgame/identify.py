@@ -7,6 +7,8 @@ import logging
 import imutils
 from matplotlib import pyplot as plt
 from pathlib import Path 
+from pylab import array, plot, show, axis, arange, figure, uint8 
+
 
 # setup logger
 logger = logging.getLogger(__name__)
@@ -77,6 +79,20 @@ def four_point_transform(image, pts):
     return warped
 
 
+def increase_contrast(img, f=1.8):
+
+    assert img.dtype == 'uint8', "image should be of type 'uint8'"
+
+    # Image data
+    maxIntensity = 255.0 # we expect integers
+
+    # Increase intensity such that dark pixels become much brighter, bright pixels become slightly bright
+    newImage = maxIntensity*(img/maxIntensity)**f
+    newImage = array(newImage, dtype=uint8)
+
+    return newImage
+
+
 def get_largest_contours(contours, zscore_threshold=2):
     areas = []
     for c in contours:
@@ -97,6 +113,9 @@ def get_largest_contours(contours, zscore_threshold=2):
 
 
 def preprocess(img):
+    # increase contrast
+    img = increase_contrast(img)
+
     # convert to grayscale
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     
@@ -104,7 +123,7 @@ def preprocess(img):
     blur = cv2.GaussianBlur(gray, (1, 1), 1000)
 
     # threshold
-    flag, thresh = cv2.threshold(blur, 200, 255, cv2.THRESH_BINARY)
+    flag, thresh = cv2.threshold(blur, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
 
     return thresh
 

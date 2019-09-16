@@ -1,6 +1,3 @@
-# skip data files
-src/set_cardgame/data
-
 # output folder
 output/
 
