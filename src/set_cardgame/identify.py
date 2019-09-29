@@ -125,7 +125,11 @@ def preprocess(img):
     # threshold
     flag, thresh = cv2.threshold(blur, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
 
-    return thresh
+    # erode
+    kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (3, 3))
+    img_erode = cv2.erode(thresh, kernel, iterations=4)
+    
+    return img_erode
 
 
 def valid_ratio(short_side, long_side, thresh_low=0.5, thresh_high=0.8):
