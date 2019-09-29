@@ -140,8 +140,12 @@ def load_dataset(target_size=(96, 128), nr_images=810, shuffle=True, output_path
         'zoom_range': 0.4,
         'rotation_range': 45,
         'horizontal_flip': True,
-        'vertical_flip': True
+        'vertical_flip': True,
+        'brightness_range': (0.5, 1.0),
+        'fill_mode': 'constant',
+        # 'width_shift_range': 0.05
     }
+    print(aug_params)
 
     # get training data
     X_train, y_train = upsample_dataset(dataset_path / "train", nr_images=nr_images, aug_params=aug_params, target_size=target_size, batch_size=81, shuffle=shuffle, output_path=output_path)
