@@ -101,23 +101,27 @@ def get_largest_contours(contours, zscore_threshold=2):
     # sort on area, largest first
     sorted_areas_contours = np.array(sorted(zip(areas, contours), key=lambda x: x[0], reverse=True))
 
-    # return areas and contours
-    sorted_areas = sorted_areas_contours[:, 0]
-    sorted_contours = sorted_areas_contours[:, 1]
+    # get top 20 largest areas and contours
+    sorted_areas = sorted_areas_contours[:, 0][:20]
+    sorted_contours = sorted_areas_contours[:, 1][:20]
     
     # use z-score to identify exceptionally large contours
     cond_large = (sorted_areas - sorted_areas.mean()) / sorted_areas.std() > zscore_threshold
     
+    print("mean of sorted contours top 20:", sorted_areas_contours[:, 0][:20].mean())
+    print("median of sorted contours top 12", np.median(sorted_areas_contours[:, 0][:12]))
+    print("std of sorted contours top 12:", sorted_areas_contours[:, 0][:12].std())
     # return largest contours
-    return sorted_contours[cond_large]
+    #return sorted_contours[cond_large], sorted_areas[cond_large]
+    return sorted_contours, sorted_areas
 
 
-def preprocess(img):
+def preprocess(img, erode_kernel=(3, 3), erode_iterations=4):
     # increase contrast
-    img = increase_contrast(img)
+    contrast = increase_contrast(img)
 
     # convert to grayscale
-    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    gray = cv2.cvtColor(contrast, cv2.COLOR_BGR2GRAY)
     
     # blur image
     blur = cv2.GaussianBlur(gray, (1, 1), 1000)
@@ -125,11 +129,19 @@ def preprocess(img):
     # threshold
     flag, thresh = cv2.threshold(blur, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
 
+    logger.info(f"found otsu threshold: {flag}")
+
     # erode
-    kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (3, 3))
-    img_erode = cv2.erode(thresh, kernel, iterations=4)
+    kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, erode_kernel)
+    eroded = cv2.erode(thresh, kernel, iterations=erode_iterations)
     
-    return img_erode
+    # result of preprocessing 
+    preprocessed = eroded
+
+    # return intermediate steps for plotting
+    intermediate_steps = [contrast, gray, blur, thresh, eroded]
+
+    return preprocessed, intermediate_steps
 
 
 def valid_ratio(short_side, long_side, thresh_low=0.5, thresh_high=0.8):
@@ -147,19 +159,23 @@ def identify_images(img, target_size):
     img_orig = img.copy()
 
     # preprocess image
-    img = preprocess(img)
+    img, intermediate_steps = preprocess(img)
 
     # find contours
     contours = cv2.findContours(img, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)[-2]
 
     # get largest contours
-    large_contours = get_largest_contours(contours, zscore_threshold=2)
+    large_contours, largest_areas = get_largest_contours(contours, zscore_threshold=2)
+
+    total_area = img_orig.shape[0]*img_orig.shape[1]
+    print(f"total area of image: {total_area}")
     
     if len(large_contours) == 0:
         logger.warning("no large contours found, using all contours")
         large_contours = contours
     identified_images = []
     bboxes = []
+    rejected_bboxes = []
     for i, c in enumerate(large_contours):
         rect = cv2.minAreaRect(c)
         box = cv2.boxPoints(rect).astype(int)
@@ -172,8 +188,11 @@ def identify_images(img, target_size):
         short_side = w if w < h else h
         long_side = w if w > h else h
         
+        print(f"ratio: s/l: {short_side / long_side}, area: {largest_areas[i]}, area %: {100*largest_areas[i]/total_area:.2f}")
+            
         if not valid_ratio(short_side, long_side, thresh_low=0.5, thresh_high=0.8):
-            logger.debug(f"invalid ratio: s/l: {short_side / long_side}")
+            print(f"invalid ratio: s/l: {short_side / long_side}")
+            rejected_bboxes.append(box)
             continue
 
         # make sure image is landscape
@@ -188,4 +207,4 @@ def identify_images(img, target_size):
         bboxes.append(box)
     logger.debug(f"nr warped: {len(identified_images)}, nr large contours: {len(large_contours)}")
     
-    return np.array(identified_images).astype(float), np.array(bboxes)
+    return np.array(identified_images).astype(float), np.array(bboxes), np.array(rejected_bboxes), intermediate_steps
