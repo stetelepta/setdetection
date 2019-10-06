@@ -93,27 +93,31 @@ def increase_contrast(img, f=1.8):
     return newImage
 
 
-def get_largest_contours(contours, zscore_threshold=2):
+def filter_valid_contours(img, contours, min_perc_area=0.01, max_perc_area=0.04):
+    
+    # get total area of image
+    total_area = img.shape[0]*img.shape[1]
+
+    # get areas of each contour
     areas = []
     for c in contours:
         areas.append(cv2.contourArea(c))
 
-    # sort on area, largest first
+    # sort the areas, largest first
     sorted_areas_contours = np.array(sorted(zip(areas, contours), key=lambda x: x[0], reverse=True))
+    
+    # get top 30 largest areas and contours
+    top_areas = sorted_areas_contours[:, 0][:30]
+    top_contours = sorted_areas_contours[:, 1][:30]
 
-    # get top 20 largest areas and contours
-    sorted_areas = sorted_areas_contours[:, 0][:20]
-    sorted_contours = sorted_areas_contours[:, 1][:20]
+    # calculate relative area to total area for each contour
+    relative_areas = top_areas / total_area
+
+    # condition: area should be within valid range
+    cond_valid_area = (relative_areas >= min_perc_area) & (relative_areas <= max_perc_area)
     
-    # use z-score to identify exceptionally large contours
-    cond_large = (sorted_areas - sorted_areas.mean()) / sorted_areas.std() > zscore_threshold
-    
-    print("mean of sorted contours top 20:", sorted_areas_contours[:, 0][:20].mean())
-    print("median of sorted contours top 12", np.median(sorted_areas_contours[:, 0][:12]))
-    print("std of sorted contours top 12:", sorted_areas_contours[:, 0][:12].std())
     # return largest contours
-    #return sorted_contours[cond_large], sorted_areas[cond_large]
-    return sorted_contours, sorted_areas
+    return top_contours[cond_valid_area], top_areas[cond_valid_area]
 
 
 def preprocess(img, erode_kernel=(3, 3), erode_iterations=4):
@@ -144,7 +148,7 @@ def preprocess(img, erode_kernel=(3, 3), erode_iterations=4):
     return preprocessed, intermediate_steps
 
 
-def valid_ratio(short_side, long_side, thresh_low=0.5, thresh_high=0.8):
+def valid_ratio(short_side, long_side, thresh_low=0.5, thresh_high=0.9):
     if short_side / long_side < thresh_low:
         logger.debug("invalid ratio: image to long")
         return False
@@ -159,24 +163,28 @@ def identify_images(img, target_size):
     img_orig = img.copy()
 
     # preprocess image
-    img, intermediate_steps = preprocess(img)
+    img, intermediate_steps = preprocess(img, erode_kernel=(3, 3), erode_iterations=4)
 
     # find contours
     contours = cv2.findContours(img, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)[-2]
 
-    # get largest contours
-    large_contours, largest_areas = get_largest_contours(contours, zscore_threshold=2)
+    # get total area of image
+    total_area = img.shape[0]*img.shape[1]
 
-    total_area = img_orig.shape[0]*img_orig.shape[1]
     print(f"total area of image: {total_area}")
-    
-    if len(large_contours) == 0:
+
+    # get largest contours
+    valid_contours, valid_areas = filter_valid_contours(img, contours)
+
+    print("valid_contours.shape:", valid_contours.shape)
+
+    if len(valid_contours) == 0:
         logger.warning("no large contours found, using all contours")
-        large_contours = contours
+        valid_contours = contours
     identified_images = []
     bboxes = []
     rejected_bboxes = []
-    for i, c in enumerate(large_contours):
+    for i, c in enumerate(valid_contours):
         rect = cv2.minAreaRect(c)
         box = cv2.boxPoints(rect).astype(int)
         warped = four_point_transform(img_orig.copy(), box)
@@ -188,9 +196,10 @@ def identify_images(img, target_size):
         short_side = w if w < h else h
         long_side = w if w > h else h
         
-        print(f"ratio: s/l: {short_side / long_side}, area: {largest_areas[i]}, area %: {100*largest_areas[i]/total_area:.2f}")
+    
+        print(f"ratio: s/l: {short_side / long_side}, area: {valid_areas[i]}, area %: {100*valid_areas[i]/total_area:.2f}")
             
-        if not valid_ratio(short_side, long_side, thresh_low=0.5, thresh_high=0.8):
+        if not valid_ratio(short_side, long_side, thresh_low=0.47, thresh_high=0.9):
             print(f"invalid ratio: s/l: {short_side / long_side}")
             rejected_bboxes.append(box)
             continue
@@ -205,6 +214,6 @@ def identify_images(img, target_size):
         # add image to output array
         identified_images.append(resized)
         bboxes.append(box)
-    logger.debug(f"nr warped: {len(identified_images)}, nr large contours: {len(large_contours)}")
+    logger.debug(f"nr warped: {len(identified_images)}, nr large contours: {len(valid_contours)}")
     
     return np.array(identified_images).astype(float), np.array(bboxes), np.array(rejected_bboxes), intermediate_steps
