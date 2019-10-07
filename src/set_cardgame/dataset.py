@@ -140,7 +140,9 @@ def load_dataset(target_size=(96, 128), nr_images=810, shuffle=True, output_path
         'zoom_range': 0.4,
         'rotation_range': 45,
         'horizontal_flip': True,
-        'vertical_flip': True
+        'vertical_flip': True,
+        'brightness_range': (0.5, 1.0),
+        'fill_mode': 'constant',
     }
 
     # get training data
