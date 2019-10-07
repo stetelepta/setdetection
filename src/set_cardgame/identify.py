@@ -79,6 +79,17 @@ def four_point_transform(image, pts):
     return warped
 
 
+def resize_image(img, target_width, target_height=None):
+
+    scale_percentage = target_width / img.shape[1]
+
+    if not target_height:
+        target_height = int(img.shape[0] * scale_percentage)
+
+    # resize image
+    return cv2.resize(img, (target_width, target_height), interpolation = cv2.INTER_AREA)
+
+
 def increase_contrast(img, f=1.8):
 
     assert img.dtype == 'uint8', "image should be of type 'uint8'"
@@ -121,6 +132,7 @@ def filter_valid_contours(img, contours, min_perc_area=0.01, max_perc_area=0.04)
 
 
 def preprocess(img, erode_kernel=(3, 3), erode_iterations=4):
+    
     # increase contrast
     contrast = increase_contrast(img)
 
@@ -171,12 +183,12 @@ def identify_images(img, target_size):
     # get total area of image
     total_area = img.shape[0]*img.shape[1]
 
-    print(f"total area of image: {total_area}")
+    #print(f"total area of image: {total_area}")
 
     # get largest contours
     valid_contours, valid_areas = filter_valid_contours(img, contours)
 
-    print("valid_contours.shape:", valid_contours.shape)
+    #print("valid_contours.shape:", valid_contours.shape)
 
     if len(valid_contours) == 0:
         logger.warning("no large contours found, using all contours")
@@ -196,8 +208,7 @@ def identify_images(img, target_size):
         short_side = w if w < h else h
         long_side = w if w > h else h
         
-    
-        print(f"ratio: s/l: {short_side / long_side}, area: {valid_areas[i]}, area %: {100*valid_areas[i]/total_area:.2f}")
+        #print(f"ratio: s/l: {short_side / long_side}, area: {valid_areas[i]}, area %: {100*valid_areas[i]/total_area:.2f}")
             
         if not valid_ratio(short_side, long_side, thresh_low=0.47, thresh_high=0.9):
             print(f"invalid ratio: s/l: {short_side / long_side}")

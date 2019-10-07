@@ -12,19 +12,16 @@ def to_rgb3(im):
 
 
 def get_mask(img, bboxes):
+
     # draw filled contours
-    img_bg = cv2.drawContours(img, bboxes, -1, (255, 255, 255), -1)
+    img_bg = cv2.drawContours(np.zeros_like(img), bboxes, -1, (255, 255, 255), -1)
 
     # convert to grayscale
-    img_bg = cv2.cvtColor(img_bg, cv2.COLOR_BGR2GRAY)
-
-    # apply threshold
-    flag, thresh = cv2.threshold(img_bg, 250, 255, cv2.THRESH_BINARY)
-
-    return thresh
+    return cv2.cvtColor(img_bg, cv2.COLOR_BGR2GRAY)
 
 
-def merge_sets_with_image(img, image_name, bboxes, sets, line_color=(255, 22, 84), line_width=20):
+
+def merge_sets_with_image(img, image_name, bboxes, sets, line_color=(255, 22, 84), line_width=16):
     set_images = []
     
     #img = cv2.cvtColor(img.copy(), cv2.COLOR_BGR2RGB)
@@ -51,7 +48,7 @@ def merge_sets_with_image(img, image_name, bboxes, sets, line_color=(255, 22, 84
         # Add the masked foreground and background.
         outImage = cv2.add(foreground, background)
         
-        outImage = (outImage*255).astype(int)
+        outImage = (outImage*255).astype('uint8')
         
         set_images.append(outImage)
     return set_images
