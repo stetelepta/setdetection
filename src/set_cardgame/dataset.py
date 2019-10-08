@@ -133,7 +133,6 @@ def load_metadata():
     
 
 def load_dataset(target_size=(96, 128), nr_images=810, shuffle=True, output_path=None, preprocessing_func=None):
-    
     # augmentation parameters for training data
     aug_params = {
         'shear_range': 0.4,
