@@ -2,6 +2,7 @@ import numpy as np
 import logging
 import cv2
 import matplotlib.pyplot as plt
+from sklearn.cluster import KMeans
 
 
 def to_rgb3(im):
@@ -163,3 +164,72 @@ def read_image_with_cards(path_to_image, convert_to_rgb=True):
         # convert image to rgb
         img = cv2.cvtColor(img.copy(), cv2.COLOR_BGR2RGB)
     return img
+
+
+def cluster_colours(img, n_clusters=10):
+    # number of clusters
+    kmeans = KMeans(n_clusters=n_clusters)
+
+    # flatten image
+    img_2d = img.reshape(img.shape[0]*img.shape[1], img.shape[2])
+    
+    # fit image
+    kmeans = kmeans.fit(img_2d)
+
+    # centroid values
+    centroids = kmeans.cluster_centers_
+
+    # move pixel values to nearest cluster
+    distances = []
+    for centroid in centroids:
+        distances.append(np.linalg.norm(img_2d - centroid, axis=1))
+    distances = np.array(distances).T
+    closed_centroid = np.argmin(distances, axis=1)
+    img_reduced = centroids[closed_centroid]
+    return img_reduced.reshape(96,128,3), centroids
+
+
+def plot_scatter(img, img_label="", suptitle=""):
+    fig, axs = plt.subplots(nrows=1, ncols=4, figsize=(20, 5))
+    fig.suptitle(suptitle, fontsize=14)
+    for i, colors in enumerate([("red", "green"), ("red", "blue"), ("blue", "green")]):
+        color_channels = {'red': 0, 'green': 1, 'blue': 2}
+        channels = (color_channels[colors[0]], color_channels[colors[1]])
+        x = img[:,:,channels[0]].reshape(img.shape[0]*img.shape[1])
+        y = img[:,:,channels[1]].reshape(img.shape[0]*img.shape[1])
+
+        axs[0].set_title(img_label, fontsize=12)
+        axs[0].imshow(img/255)
+        axs[0].axis('off')
+        axs[i+1].set_title(f"{colors[0]} vs {colors[1]}")
+        axs[i+1].set_xlim(0, 255)
+        axs[i+1].set_ylim(0, 255)    
+        axs[i+1].set_xlabel(colors[0])
+        axs[i+1].set_ylabel(colors[1])
+        axs[i+1].plot(x, y, linestyle="None", marker=".", color="k", markersize=2)
+
+
+def plot_scatter_centroids(img, img_label="", suptitle="", centroids=[]):
+    fig, axs = plt.subplots(nrows=1, ncols=4, figsize=(20, 5))
+    fig.suptitle(suptitle, fontsize=14)
+    for i, colors in enumerate([("red", "green"), ("red", "blue"), ("blue", "green")]):
+        color_channels = {'red': 0, 'green': 1, 'blue': 2}
+        channels = (color_channels[colors[0]], color_channels[colors[1]])
+        x = img[:,:,channels[0]].reshape(img.shape[0]*img.shape[1])
+        y = img[:,:,channels[1]].reshape(img.shape[0]*img.shape[1])
+
+        axs[0].set_title(img_label, fontsize=12)
+        axs[0].imshow(img/255)        
+        axs[i+1].set_title(f"{colors[0]} vs {colors[1]}")
+        axs[i+1].set_xlim(0, 255)
+        axs[i+1].set_ylim(0, 255)    
+        axs[i+1].set_xlabel(colors[0])
+        axs[i+1].set_ylabel(colors[1])
+        axs[i+1].grid(True)
+        axs[i+1].plot(x, y, linestyle="None", marker=".", color="k", alpha=0.3, markersize=10)
+        
+    for centroid in centroids:
+        axs[1].plot(centroid[0], centroid[1], marker=".", color="red", markersize="20", alpha=1)
+        axs[2].plot(centroid[0], centroid[2], marker=".", color="red", markersize="20", alpha=1)
+        axs[3].plot(centroid[2], centroid[1], marker=".", color="red", markersize="20", alpha=1)
+
