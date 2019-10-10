@@ -60,7 +60,7 @@ def upsample_dataset(images_path, nr_images, aug_params={}, target_size=(96, 128
     }
 
     if output_path:
-        flow_params.update({'save_to_dir': str(output_path / "gen")})
+        flow_params.update({'save_to_dir': str(output_path)})
 
     # initalize generator and augment all images in dataset folder
     directory_iterator = ImageDataGenerator(**aug_params).flow_from_directory(images_path, **flow_params)
