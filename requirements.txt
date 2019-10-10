@@ -40,9 +40,9 @@ MarkupSafe==1.1.1
 matplotlib==3.1.1
 memory-profiler==0.55.0
 mistune==0.8.4
-mkl-fft==1.0.14
-mkl-random==1.0.2
-mkl-service==2.0.2
+#mkl-fft==1.0.14
+#mkl-random==1.0.2
+#mkl-service==2.0.2
 natsort==6.0.0
 nbconvert==5.5.0
 nbformat==4.4.0

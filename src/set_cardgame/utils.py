@@ -1,8 +1,25 @@
+import os
 import numpy as np
 import logging
 import cv2
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
+
+# setup logger
+logger = logging.getLogger(__name__)
+
+
+def create_folder_if_not_exists(folder_path):
+    '''Creates folder if not exists
+
+    Args: 
+        folder_path (pathlib.Path instance): path to the folder that needs to be created
+    '''
+    try:
+        os.mkdir(folder_path)
+        logger.info(f'directory {folder_path} created.')
+    except FileExistsError:
+        logger.debug(f'directory {folder_path} already exists.')
 
 
 def to_rgb3(im):
@@ -153,10 +170,10 @@ def crop(card_img, p=5):
     return card_img[0+p:h-p, 0+p:w-p, :]
 
 
-def zoom(card_img, p=5):
+def zoom(card_img, p=3):
     card_img = card_img.reshape(96, 128, 3)
     cropped = crop(card_img, p=p)
-    return resize_image(cropped, target_width=card_img.shape[1], target_height=card_img.shape[0])
+    return resize_image(cropped, target_width=card_img.shape[1], target_height=card_img.shape[0]).astype('uint8')
 
 
 def read_image_with_cards(path_to_image, convert_to_rgb=True):
