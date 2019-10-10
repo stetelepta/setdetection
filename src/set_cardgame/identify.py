@@ -134,7 +134,7 @@ def preprocess(img, erode_kernel=(3, 3), erode_iterations=4):
     # threshold
     flag, thresh = cv2.threshold(blur, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
 
-    logger.info(f"found otsu threshold: {flag}")
+    logger.info(f"found OTSU threshold: {flag}")
 
     # erode
     kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, erode_kernel)
@@ -192,7 +192,7 @@ def identify_images(img, target_size):
         long_side = w if w > h else h
         
         if not valid_ratio(short_side, long_side, thresh_low=0.47, thresh_high=0.9):
-            print(f"invalid ratio: s/l: {short_side / long_side}")
+            logger.info(f"reject contour, invalid ratio short/long side: {short_side / long_side}")
             rejected_bboxes.append(box)
             continue
 

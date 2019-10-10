@@ -72,8 +72,6 @@ def conditionally_decorate(decorator, condition):
 
 
 def setup_logger(level=logging.DEBUG, logfile=None):
-    assert logfile is not None, "specify a logile"
-
     # setup formatter
     formatter = logging.Formatter(fmt='%(asctime)s - %(levelname)s - %(module)s - %(message)s')
 
@@ -87,7 +85,11 @@ def setup_logger(level=logging.DEBUG, logfile=None):
     logger.handlers = []
     
     # setup handler and add to logger
-    handler = logging.FileHandler(logfile)
+    if logfile:
+        handler = logging.FileHandler(logfile)
+    else:
+        handler = logging.StreamHandler()
+
     handler.setFormatter(formatter)
     logger.addHandler(handler)
 
